@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "High Value Transfer Alert",
+    "condition": "transaction_type == 'TRANSFER' and amount > 1000000",
+    "risk_level": "High",
+    "category": "Threshold Breach",
+    "action": "flag_layering"
+  },
+  {
+    "id": 2,
+    "name": "Structuring Pattern Detection",
+    "condition": "transaction_type == 'TRANSFER' and amount < 10000 and repeated_within_24h == true and total_24h_sum > 50000",
+    "risk_level": "High",
+    "category": "Structuring",
+    "action": "flag_structuring"
+  },
+  {
+    "id": 3,
+    "name": "Layered Transfers",
+    "condition": "num_accounts_involved > 3 and total_amount > 50000 and avg_time_delay < 2_days",
+    "risk_level": "High",
+    "category": "Layering",
+    "action": "flag_layering"
+  },
+  {
+    "id": 4,
+    "name": "Integration via Shell Company",
+    "condition": "merchant_category == 'Shell Company' and amount > 20000",
+    "risk_level": "Critical",
+    "category": "Integration",
+    "action": "flag_integration"
+  },
+  {
+    "id": 5,
+    "name": "Integration via Property Investment",
+    "condition": "merchant_category == 'Property Investment' and amount > 25000",
+    "risk_level": "Critical",
+    "category": "Integration",
+    "action": "flag_integration"
+  },
+  {
+    "id": 6,
+    "name": "Multiple Small Transfers to Same Beneficiary",
+    "condition": "count_to_same_receiver_7d > 3 and total_to_same_receiver_7d > 50000",
+    "risk_level": "High",
+    "category": "Structuring",
+    "action": "flag_structuring"
+  },
+  {
+    "id": 7,
+    "name": "Rapid Fund Movement Across Layers",
+    "condition": "num_layers >= 3 and avg_delay_between_layers < 48_hours",
+    "risk_level": "High",
+    "category": "Layering",
+    "action": "flag_layering"
+  },
+  {
+    "id": 8,
+    "name": "High Risk Category Transaction",
+    "condition": "category_risk == 'high' and risk_score > 80",
+    "risk_level": "High",
+    "category": "Category Risk",
+    "action": "flag_review"
+  },
+  {
+    "id": 9,
+    "name": "Unusually High Amount vs Average",
+    "condition": "amount_vs_average > 50",
+    "risk_level": "Medium",
+    "category": "Deviation",
+    "action": "flag_review"
+  },
+  {
+    "id": 10,
+    "name": "Unusual Device for Transaction",
+    "condition": "device_type not in ['Mobile', 'Web']",
+    "risk_level": "Medium",
+    "category": "Behavioral Anomaly",
+    "action": "flag_review"
+  },
+  {
+    "id": 11,
+    "name": "Transactions from Unusual Location",
+    "condition": "unusual_location == true",
+    "risk_level": "Medium",
+    "category": "Behavioral Anomaly",
+    "action": "flag_review"
+  },
+  {
+    "id": 12,
+    "name": "Multiple Countries in Short Period",
+    "condition": "num_countries_involved_7d >= 2",
+    "risk_level": "High",
+    "category": "Cross-border Risk",
+    "action": "flag_layering"
+  },
+  {
+    "id": 13,
+    "name": "Customer with High Risk Score",
+    "condition": "customer_risk_score > 90 and amount > 20000",
+    "risk_level": "High",
+    "category": "Customer Risk",
+    "action": "flag_review"
+  },
+  {
+    "id": 14,
+    "name": "Rapid Incoming and Outgoing Flows",
+    "condition": "incoming_outgoing_gap < 1_hour and total_value > 50000",
+    "risk_level": "High",
+    "category": "Layering",
+    "action": "flag_layering"
+  },
+  {
+    "id": 15,
+    "name": "Mixing of High and Low Risk Sources",
+    "condition": "multiple_sources == true and category_mixture == true",
+    "risk_level": "High",
+    "category": "Mixing",
+    "action": "flag_layering"
+  },
+  {
+    "id": 16,
+    "name": "Transactions with Known Risky Merchant",
+    "condition": "merchant_risk_level == 'high' and amount > 10000",
+    "risk_level": "High",
+    "category": "Merchant Risk",
+    "action": "flag_review"
+  },
+  {
+    "id": 17,
+    "name": "High Frequency Transactions in Short Time",
+    "condition": "num_transactions_1h > 3",
+    "risk_level": "Medium",
+    "category": "Structuring",
+    "action": "flag_structuring"
+  },
+  {
+    "id": 18,
+    "name": "Suspicious PayID Activity",
+    "condition": "payment_method == 'PayID' and num_transactions_1d > 5",
+    "risk_level": "Medium",
+    "category": "Structuring",
+    "action": "flag_structuring"
+  },
+  {
+    "id": 19,
+    "name": "Layering Using Multiple Devices",
+    "condition": "unique_device_count_3d > 3 and amount > 20000",
+    "risk_level": "High",
+    "category": "Layering",
+    "action": "flag_layering"
+  },
+  {
+    "id": 20,
+    "name": "Layering Across Regions",
+    "condition": "distinct_postcodes_3d > 2 and total_amount > 50000",
+    "risk_level": "High",
+    "category": "Layering",
+    "action": "flag_layering"
+  },
+  {
+    "id": 21,
+    "name": "Transaction Near Reporting Threshold",
+    "condition": "amount between 9500 and 9999",
+    "risk_level": "Medium",
+    "category": "Structuring",
+    "action": "flag_structuring"
+  },
+  {
+    "id": 22,
+    "name": "Round Amount Transfers",
+    "condition": "amount % 1000 == 0 and amount > 10000",
+    "risk_level": "Low",
+    "category": "Pattern Risk",
+    "action": "flag_review"
+  },
+  {
+    "id": 23,
+    "name": "Frequent Transfers Between Same Parties",
+    "condition": "same_party_repeat > 5 in 7d",
+    "risk_level": "High",
+    "category": "Structuring",
+    "action": "flag_structuring"
+  },
+  {
+    "id": 24,
+    "name": "Sudden Increase in Activity",
+    "condition": "transactions_last_7d > average_7d * 3",
+    "risk_level": "Medium",
+    "category": "Behavioral Spike",
+    "action": "flag_review"
+  },
+  {
+    "id": 25,
+    "name": "Integration via Asset Purchase",
+    "condition": "merchant_category in ['Real Estate', 'Luxury Goods', 'Property Investment'] and amount > 50000",
+    "risk_level": "Critical",
+    "category": "Integration",
+    "action": "flag_integration"
+  },
+  {
+    "id": 26,
+    "name": "Customer With History of STRs",
+    "condition": "previous_STRs > 0 and new_transaction_amount > 10000",
+    "risk_level": "High",
+    "category": "Customer History",
+    "action": "flag_review"
+  },
+  {
+    "id": 27,
+    "name": "Multiple Layer Transfers in One Week",
+    "condition": "layer_count_week > 3",
+    "risk_level": "High",
+    "category": "Layering",
+    "action": "flag_layering"
+  },
+  {
+    "id": 28,
+    "name": "Shell Company Detected in Chain",
+    "condition": "beneficiary_industry == 'Shell Company' or intermediary_category == 'Shell Company'",
+    "risk_level": "Critical",
+    "category": "Integration",
+    "action": "flag_integration"
+  },
+  {
+    "id": 29,
+    "name": "Suspicious Property Linked Chain",
+    "condition": "chain_contains('Property Investment') and total_value > 30000",
+    "risk_level": "High",
+    "category": "Integration",
+    "action": "flag_integration"
+  },
+  {
+    "id": 30,
+    "name": "High Risk, Multi-step Fund Movement",
+    "condition": "risk_score > 80 and num_layers >= 3 and total_value > 50000",
+    "risk_level": "Critical",
+    "category": "Layering",
+    "action": "flag_layering"
+  }
+]

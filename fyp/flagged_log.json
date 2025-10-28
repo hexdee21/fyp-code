@@ -1,0 +1,38 @@
+[
+    {
+        "tx": {
+            "data": "Quarterly fund movement",
+            "transaction_type": "TRANSFER",
+            "merchant_category": "Shell Company",
+            "receiver": "Exchange2",
+            "sender": "Exchange1",
+            "amount": 50000
+        },
+        "matched_rules": [
+            "Integration via Shell Company",
+            "Round Amount Transfers"
+        ],
+        "risk_levels": [
+            "Critical",
+            "Low"
+        ],
+        "timestamp": "2025-10-24 12:19:12"
+    },
+    {
+        "tx": {
+            "data": "Routine payment",
+            "transaction_type": "TRANSFER",
+            "merchant_category": "Retail",
+            "receiver": "Exchange2",
+            "sender": "Exchange1",
+            "amount": 15000
+        },
+        "matched_rules": [
+            "Round Amount Transfers"
+        ],
+        "risk_levels": [
+            "Low"
+        ],
+        "timestamp": "2025-10-24 12:21:37"
+    }
+]

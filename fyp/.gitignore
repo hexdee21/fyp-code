@@ -1,0 +1,26 @@
+# 🧠 Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 🧰 Ignore virtual environment folders
+venv/
+env/
+.venv/
+
+# ⚙️ Ignore environment files containing secrets
+.env
+*.env
+
+# 🗃️ Ignore log files
+*.log
+
+# 🪶 Ignore system/OS files
+.DS_Store
+Thumbs.db
+
+# 🧪 Ignore IDE specific folders (optional)
+.vscode/
+.idea/
+

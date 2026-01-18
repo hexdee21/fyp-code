@@ -1,0 +1,867 @@
+[
+    {
+        "tx": {
+            "data": "Monthly salary for October 2025",
+            "transaction_type": "DEPOSIT",
+            "merchant_category": "Payroll",
+            "receiver": "Hadi",
+            "sender": "CompanyABC",
+            "amount": 85000
+        },
+        "matched_rules": [
+            "Round Amount Transfers"
+        ],
+        "risk_levels": [
+            "Low"
+        ],
+        "timestamp": "2025-10-29 01:17:30"
+    },
+    {
+        "tx": {
+            "sender": "Exchange1",
+            "receiver": "Exchange2",
+            "amount": 15000.0,
+            "data": "Large suspicious transfer"
+        },
+        "matched_rules": [
+            "Round Amount Transfers"
+        ],
+        "risk_levels": [
+            "Low"
+        ],
+        "timestamp": "2025-10-31 01:05:39"
+    },
+    {
+        "tx": {
+            "sender": "Exchange1",
+            "receiver": "Exchange2",
+            "amount": 15000.0,
+            "data": "Suspicious test transaction"
+        },
+        "matched_rules": [
+            "Round Amount Transfers"
+        ],
+        "risk_levels": [
+            "Low"
+        ],
+        "timestamp": "2025-10-31 01:07:27"
+    },
+    {
+        "tx": {
+            "sender": "Exchange1",
+            "receiver": "Exchange2",
+            "amount": 15000.0,
+            "data": "Large suspicious transfer"
+        },
+        "matched_rules": [
+            "Round Amount Transfers"
+        ],
+        "risk_levels": [
+            "Low"
+        ],
+        "timestamp": "2025-10-31 01:29:00"
+    },
+    {
+        "tx": {
+            "sender": "Exchange1",
+            "receiver": "Exchange2",
+            "amount": 15000.0,
+            "data": "Suspicious test transaction"
+        },
+        "matched_rules": [
+            "Round Amount Transfers"
+        ],
+        "risk_levels": [
+            "Low"
+        ],
+        "timestamp": "2025-10-31 01:37:46"
+    },
+    {
+        "tx": {
+            "sender": "Exchange1",
+            "receiver": "Exchange2",
+            "amount": 15000.0,
+            "data": "Test transfer"
+        },
+        "matched_rules": [
+            "Round Amount Transfers"
+        ],
+        "risk_levels": [
+            "Low"
+        ],
+        "timestamp": "2025-10-31 01:45:54"
+    },
+    {
+        "tx": {
+            "sender": "Exchange1",
+            "receiver": "Exchange1",
+            "amount": 200000.0,
+            "data": "Test transfer"
+        },
+        "matched_rules": [
+            "Round Amount Transfers"
+        ],
+        "risk_levels": [
+            "Low"
+        ],
+        "timestamp": "2025-10-31 02:09:51"
+    },
+    {
+        "tx": {
+            "sender": "Exchange1",
+            "receiver": "Exchange2",
+            "amount": 15000.0,
+            "data": "Test transfer",
+            "num_layers": 0,
+            "avg_delay_between_layers": 1000000000.0,
+            "total_amount": 15000.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 15000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600,
+            "avg_time_delay": 1000000000.0
+        },
+        "matched_rules": [
+            "Round Amount Transfers"
+        ],
+        "risk_levels": [
+            "Low"
+        ],
+        "timestamp": "2025-11-10 01:26:16"
+    },
+    {
+        "tx": {
+            "transaction_type": "TRANSFER",
+            "sender": "A",
+            "receiver": "Z",
+            "amount": 80000,
+            "path": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "Z"
+            ],
+            "timestamps": [
+                1698740000,
+                1698740300,
+                1698740600,
+                1698740800,
+                1698740900
+            ],
+            "merchant_category": "Property Investment",
+            "device_type": "Web",
+            "country": "PK",
+            "payment_method": "Wire",
+            "num_layers": 4,
+            "avg_delay_between_layers": 225.0,
+            "total_amount": 80000.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 80000.0,
+            "num_countries_involved_7d": 1,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 1,
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600,
+            "avg_time_delay": 1000000000.0
+        },
+        "matched_rules": [
+            "Integration via Property Investment",
+            "Round Amount Transfers",
+            "Integration via Asset Purchase"
+        ],
+        "risk_levels": [
+            "Critical",
+            "Low",
+            "Critical"
+        ],
+        "timestamp": "2025-11-10 01:29:16"
+    },
+    {
+        "tx": {
+            "transaction_type": "TRANSFER",
+            "sender": "B",
+            "receiver": "C",
+            "amount": 12000,
+            "path": [
+                "A",
+                "B",
+                "C"
+            ],
+            "timestamps": [
+                1761000000,
+                1761002000,
+                1761004000
+            ],
+            "num_layers": 2,
+            "avg_delay_between_layers": 2000.0,
+            "total_amount": 22000.0,
+            "num_accounts_involved": 3,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 12000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600,
+            "avg_time_delay": 3000.0
+        },
+        "matched_rules": [
+            "Round Amount Transfers"
+        ],
+        "risk_levels": [
+            "Low"
+        ],
+        "timestamp": "2025-11-10 01:32:56"
+    },
+    {
+        "tx": {
+            "transaction_type": "TRANSFER",
+            "sender": "C",
+            "receiver": "D",
+            "amount": 15000,
+            "path": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "timestamps": [
+                1761000000,
+                1761002000,
+                1761004000,
+                1761006000
+            ],
+            "num_layers": 3,
+            "avg_delay_between_layers": 2000.0,
+            "total_amount": 27000.0,
+            "num_accounts_involved": 3,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 15000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600,
+            "avg_time_delay": 2000.0
+        },
+        "matched_rules": [
+            "Round Amount Transfers"
+        ],
+        "risk_levels": [
+            "Low"
+        ],
+        "timestamp": "2025-11-10 01:33:16"
+    },
+    {
+        "tx": {
+            "transaction_type": "TRANSFER",
+            "sender": "D",
+            "receiver": "E",
+            "amount": 20000,
+            "path": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "timestamps": [
+                1761000000,
+                1761002000,
+                1761004000,
+                1761006000,
+                1761008000
+            ],
+            "num_layers": 4,
+            "avg_delay_between_layers": 2000.0,
+            "total_amount": 35000.0,
+            "num_accounts_involved": 3,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 20000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600,
+            "avg_time_delay": 2000.0
+        },
+        "matched_rules": [
+            "Round Amount Transfers"
+        ],
+        "risk_levels": [
+            "Low"
+        ],
+        "timestamp": "2025-11-10 01:32:55"
+    },
+    {
+        "tx": {
+            "transaction_type": "TRANSFER",
+            "sender": "A",
+            "receiver": "B",
+            "amount": 15000,
+            "path": [
+                "A",
+                "B"
+            ],
+            "timestamps": [
+                1761000000,
+                1761000300
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 300.0,
+            "total_amount": 105000.0,
+            "num_accounts_involved": 3,
+            "count_to_same_receiver_7d": 2,
+            "total_to_same_receiver_7d": 25000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 2,
+            "unique_device_count_3d": 0,
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600,
+            "avg_time_delay": 31130050.0
+        },
+        "matched_rules": [
+            "Round Amount Transfers"
+        ],
+        "risk_levels": [
+            "Low"
+        ],
+        "timestamp": "2025-11-10 01:36:28"
+    },
+    {
+        "tx": {
+            "transaction_type": "TRANSFER",
+            "sender": "B",
+            "receiver": "C",
+            "amount": 12000,
+            "path": [
+                "A",
+                "B",
+                "C"
+            ],
+            "timestamps": [
+                1761000000,
+                1761002000,
+                1761004000
+            ],
+            "num_layers": 2,
+            "avg_delay_between_layers": 2000.0,
+            "total_amount": 44000.0,
+            "num_accounts_involved": 3,
+            "count_to_same_receiver_7d": 2,
+            "total_to_same_receiver_7d": 24000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 2,
+            "unique_device_count_3d": 0,
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600,
+            "avg_time_delay": 1000.0
+        },
+        "matched_rules": [
+            "Round Amount Transfers"
+        ],
+        "risk_levels": [
+            "Low"
+        ],
+        "timestamp": "2025-11-10 01:39:45"
+    },
+    {
+        "tx": {
+            "transaction_type": "TRANSFER",
+            "sender": "A",
+            "receiver": "B",
+            "amount": 10000,
+            "path": [
+                "A",
+                "B"
+            ],
+            "timestamps": [
+                1761000000,
+                1761001000
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 1000.0,
+            "total_amount": 45000.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 4,
+            "total_to_same_receiver_7d": 45000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 4,
+            "unique_device_count_3d": 0,
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600,
+            "avg_time_delay": 233.33333333333334
+        },
+        "matched_rules": [
+            "High Frequency Transactions in Short Time"
+        ],
+        "risk_levels": [
+            "Medium"
+        ],
+        "timestamp": "2025-11-10 01:41:15"
+    },
+    {
+        "tx": {
+            "transaction_type": "TRANSFER",
+            "sender": "B",
+            "receiver": "C",
+            "amount": 12000,
+            "path": [
+                "A",
+                "B",
+                "C"
+            ],
+            "timestamps": [
+                1761000000,
+                1761002000,
+                1761004000
+            ],
+            "num_layers": 2,
+            "avg_delay_between_layers": 2000.0,
+            "total_amount": 46000.0,
+            "num_accounts_involved": 3,
+            "count_to_same_receiver_7d": 3,
+            "total_to_same_receiver_7d": 36000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 3,
+            "unique_device_count_3d": 0,
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600,
+            "avg_time_delay": 1000.0
+        },
+        "matched_rules": [
+            "Round Amount Transfers"
+        ],
+        "risk_levels": [
+            "Low"
+        ],
+        "timestamp": "2025-11-10 01:41:50"
+    },
+    {
+        "tx": {
+            "transaction_type": "TRANSFER",
+            "sender": "A",
+            "receiver": "B",
+            "amount": 15000,
+            "path": [
+                "A",
+                "B"
+            ],
+            "timestamps": [
+                1761000000,
+                1761000300
+            ],
+            "merchant_category": "General",
+            "device_type": "Mobile",
+            "country": "PK",
+            "payment_method": "Wire",
+            "num_layers": 1,
+            "avg_delay_between_layers": 300.0,
+            "total_amount": 45000.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 5,
+            "total_to_same_receiver_7d": 60000.0,
+            "num_countries_involved_7d": 1,
+            "num_transactions_1h": 5,
+            "unique_device_count_3d": 1,
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600,
+            "avg_time_delay": 233.33333333333334
+        },
+        "matched_rules": [
+            "Multiple Small Transfers to Same Beneficiary",
+            "High Frequency Transactions in Short Time"
+        ],
+        "risk_levels": [
+            "High",
+            "Medium"
+        ],
+        "timestamp": "2025-11-10 02:20:05"
+    },
+    {
+        "tx": {
+            "transaction_type": "TRANSFER",
+            "sender": "B",
+            "receiver": "C",
+            "amount": 18000,
+            "path": [
+                "A",
+                "B",
+                "C"
+            ],
+            "timestamps": [
+                1761000300,
+                1761000600,
+                1761000900
+            ],
+            "merchant_category": "General",
+            "device_type": "Web",
+            "country": "PK",
+            "payment_method": "Wire",
+            "num_layers": 2,
+            "avg_delay_between_layers": 300.0,
+            "total_amount": 46000.0,
+            "num_accounts_involved": 3,
+            "count_to_same_receiver_7d": 4,
+            "total_to_same_receiver_7d": 54000.0,
+            "num_countries_involved_7d": 1,
+            "num_transactions_1h": 4,
+            "unique_device_count_3d": 1,
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600,
+            "avg_time_delay": 1000.0
+        },
+        "matched_rules": [
+            "Multiple Small Transfers to Same Beneficiary",
+            "High Frequency Transactions in Short Time"
+        ],
+        "risk_levels": [
+            "High",
+            "Medium"
+        ],
+        "timestamp": "2025-11-10 02:21:51"
+    },
+    {
+        "tx": {
+            "transaction_type": "TRANSFER",
+            "sender": "G",
+            "receiver": "H",
+            "amount": 40000,
+            "path": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+            ],
+            "timestamps": [
+                1761006300,
+                1761006600,
+                1761006900,
+                1761007200,
+                1761007500,
+                1761007800,
+                1761008100,
+                1761008400
+            ],
+            "merchant_category": "Property Investment",
+            "device_type": "Web",
+            "country": "PK",
+            "payment_method": "Wire",
+            "num_layers": 7,
+            "avg_delay_between_layers": 300.0,
+            "total_amount": 75000.0,
+            "num_accounts_involved": 3,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 40000.0,
+            "num_countries_involved_7d": 1,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 1,
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600,
+            "avg_time_delay": 2100.0
+        },
+        "matched_rules": [
+            "Integration via Property Investment"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-10 02:23:50"
+    },
+    {
+        "tx": {
+            "transaction_type": "TRANSFER",
+            "sender": "G",
+            "receiver": "H",
+            "amount": 40000,
+            "path": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+            ],
+            "timestamps": [
+                1761006300,
+                1761006600,
+                1761006900,
+                1761007200,
+                1761007500,
+                1761007800,
+                1761008100,
+                1761008400
+            ],
+            "merchant_category": "Property Investment",
+            "device_type": "Web",
+            "country": "PK",
+            "payment_method": "Wire"
+        },
+        "matched_rules": [
+            "Integration via Property Investment"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-10 04:13:16"
+    },
+    {
+        "tx": {
+            "transaction_type": "TRANSFER",
+            "sender": "A",
+            "receiver": "B",
+            "amount": 15000,
+            "path": [
+                "A",
+                "B"
+            ],
+            "timestamps": [
+                1761000000,
+                1761000300
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 300.0,
+            "total_amount": 15000.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 5,
+            "total_to_same_receiver_7d": 60000.0,
+            "num_countries_involved_7d": 1,
+            "num_transactions_1h": 5,
+            "unique_device_count_3d": 1,
+            "incoming_outgoing_gap": 1000000000.0,
+            "previous_STRs": 4,
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Multiple Small Transfers to Same Beneficiary",
+            "High Frequency Transactions in Short Time"
+        ],
+        "risk_levels": [
+            "High",
+            "Medium"
+        ],
+        "timestamp": "2025-11-10 05:40:13"
+    },
+    {
+        "tx": {
+            "transaction_type": "TRANSFER",
+            "sender": "A",
+            "receiver": "B",
+            "amount": 10000,
+            "path": [
+                "A",
+                "B"
+            ],
+            "timestamps": [
+                1761000000,
+                1761001000
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 1000.0,
+            "total_amount": 10000.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 6,
+            "total_to_same_receiver_7d": 75000.0,
+            "num_countries_involved_7d": 1,
+            "num_transactions_1h": 6,
+            "unique_device_count_3d": 1,
+            "incoming_outgoing_gap": 1000000000.0,
+            "previous_STRs": 5,
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Multiple Small Transfers to Same Beneficiary",
+            "High Frequency Transactions in Short Time"
+        ],
+        "risk_levels": [
+            "High",
+            "Medium"
+        ],
+        "timestamp": "2025-11-10 18:26:09"
+    },
+    {
+        "tx": {
+            "sender": "Exchange1",
+            "receiver": "B",
+            "amount": 1500000.0,
+            "data": "Test transfer",
+            "timestamps": [
+                1762783327.8080237
+            ],
+            "path": [
+                "Exchange1",
+                "B"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 1500000.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 15000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 2,
+            "unique_device_count_3d": 0,
+            "incoming_outgoing_gap": 1000000000.0,
+            "previous_STRs": 7,
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Round Amount Transfers"
+        ],
+        "risk_levels": [
+            "Low"
+        ],
+        "timestamp": "2025-11-10 19:02:07"
+    },
+    {
+        "tx": {
+            "transaction_type": "TRANSFER",
+            "sender": "Shaiq",
+            "receiver": "Ali",
+            "amount": 100000,
+            "path": [
+                "Hadi",
+                "Sohaib",
+                "Ovais",
+                "Sami",
+                "Ayan",
+                "Hamza",
+                "Rajput",
+                "Shaiq",
+                "Ali"
+            ],
+            "timestamps": [
+                1763500500,
+                1763500550,
+                1763500600,
+                1763500650,
+                1763500700,
+                1763500750,
+                1763500800,
+                1763500850,
+                1763500900
+            ],
+            "merchant_category": "General",
+            "device_type": "Web",
+            "country": "PK",
+            "payment_method": "Wire",
+            "num_layers": 8,
+            "avg_delay_between_layers": 50.0,
+            "total_amount": 829500.0,
+            "num_accounts_involved": 9,
+            "count_to_same_receiver_7d": 2,
+            "total_to_same_receiver_7d": 200000.0,
+            "num_countries_involved_7d": 1,
+            "num_transactions_1h": 2,
+            "unique_device_count_3d": 1,
+            "incoming_outgoing_gap": 1000000000.0,
+            "previous_STRs": 0,
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Layered Transfers"
+        ],
+        "risk_levels": [
+            "High"
+        ],
+        "timestamp": "2025-11-11 02:07:08"
+    },
+    {
+        "tx": {
+            "transaction_type": "TRANSFER",
+            "sender": "Shaiq",
+            "receiver": "Ali",
+            "amount": 100000,
+            "path": [
+                "Hadi",
+                "Sohaib",
+                "Ovais",
+                "Sami",
+                "Ayan",
+                "Hamza",
+                "Rajput",
+                "Shaiq",
+                "Ali"
+            ],
+            "timestamps": [
+                1763500500,
+                1763500550,
+                1763500600,
+                1763500650,
+                1763500700,
+                1763500750,
+                1763500800,
+                1763500850,
+                1763500900
+            ],
+            "merchant_category": "General",
+            "device_type": "Web",
+            "country": "PK",
+            "payment_method": "Wire",
+            "num_layers": 8,
+            "avg_delay_between_layers": 50.0,
+            "total_amount": 929500.0,
+            "num_accounts_involved": 9,
+            "count_to_same_receiver_7d": 3,
+            "total_to_same_receiver_7d": 300000.0,
+            "num_countries_involved_7d": 1,
+            "num_transactions_1h": 3,
+            "unique_device_count_3d": 1,
+            "incoming_outgoing_gap": 1000000000.0,
+            "previous_STRs": 1,
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Layered Transfers"
+        ],
+        "risk_levels": [
+            "High"
+        ],
+        "timestamp": "2025-11-11 02:17:22",
+        "path": [
+            "Hadi",
+            "Sohaib",
+            "Ovais",
+            "Sami",
+            "Ayan",
+            "Hamza",
+            "Rajput",
+            "Shaiq",
+            "Ali"
+        ]
+    }
+]

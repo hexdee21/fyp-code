@@ -9,8 +9,6 @@ export default function Dashboard() {
   const [loading, setLoading] = useState(true);
   const [selectedTx, setSelectedTx] = useState(null);
   const [graphData, setGraphData] = useState({ nodes: [], links: [] });
-
-
   const AUDITOR_API = "http://172.25.136.156:5004";
 
 
@@ -19,7 +17,6 @@ export default function Dashboard() {
       setLoading(true);
       try {
         const res = await axios.get(`${AUDITOR_API}/view_logs`);
-        console.log("Loaded flagged transactions:", res.data); // Debug
         setFlagged(res.data.flagged_transactions || []);
       } finally {
         setLoading(false);
@@ -29,70 +26,22 @@ export default function Dashboard() {
   }, []);
 
 
-  // ----- Graph Logic -----
   const generateGraph = useCallback((tx) => {
     if (!tx) return { nodes: [], links: [] };
-
-
-    // Extract transaction data
     const txData = tx.tx || tx;
-    console.log("Generating graph for:", txData); // Debug
+    let path = txData.path || [txData.sender, txData.receiver];
 
 
-    // Rule 35 — coordinated chain
-    if (txData.linked_chain_members && txData.linked_chain_common_receiver) {
-      const members = txData.linked_chain_members;
-      const receiver = txData.linked_chain_common_receiver;
-      const origin = members.find((x) => x !== receiver);
-
-
-      const nodes = members.map((id) => ({
-        id,
-        color: id === receiver ? "red" : id === origin ? "green" : "blue",
-      }));
-
-
-      const links = [];
-      members
-        .filter((m) => m !== receiver && m !== origin)
-        .forEach((m) => {
-          links.push({ source: origin, target: m });
-          links.push({ source: m, target: receiver });
-        });
-
-
-      return { nodes, links };
-    }
-
-
-    // ✅ Use full path for layering (Rule 3) or simple path
-    let path = txData.path;
-   
-    // Fallback to simple sender → receiver if no path
-    if (!path || path.length === 0) {
-      path = [txData.sender, txData.receiver];
-    }
-
-
-    console.log("Using path:", path); // Debug
-
-
-    // ✅ Create nodes with color coding
     const nodes = path.map((id, idx) => ({
       id,
-      color: idx === 0 ? "green" : idx === path.length - 1 ? "red" : "blue"
-      // green = origin, red = final destination, blue = intermediaries
+      color: idx === 0 ? "green" : idx === path.length - 1 ? "red" : "blue",
     }));
 
 
-    // Create links between consecutive nodes
     const links = path.slice(0, -1).map((id, i) => ({
       source: path[i],
       target: path[i + 1],
     }));
-
-
-    console.log("Generated graph:", { nodes, links }); // Debug
 
 
     return { nodes, links };
@@ -100,61 +49,82 @@ export default function Dashboard() {
 
 
   const openGraph = (tx) => {
-    console.log("Opening graph for:", tx); // Debug
     setSelectedTx(tx);
     setGraphData(generateGraph(tx));
   };
 
 
   return (
-    <div className="min-h-screen bg-gray-100">
-      <Navbar />
-      <div className="p-6">
-        <h1 className="text-3xl font-bold text-red-600 mb-6">🚨 Flagged Transactions</h1>
+    <div className="min-h-screen bg-[#0f0f1f] text-neon">
+
+
+      {/* Full width navbar */}
+      <div className="mb-6">
+        <Navbar />
+      </div>
+
+
+      {/* Page content */}
+      <div className="px-6">
+        <h1 className="text-3xl font-bold mb-6 text-[#00ffff]">🚨 Flagged Transactions</h1>
 
 
         {loading ? (
-          <p>Loading...</p>
+          <p className="text-gray-300">Loading...</p>
         ) : flagged.length === 0 ? (
-          <p>No suspicious activity.</p>
+          <p className="text-gray-300">No suspicious activity.</p>
         ) : (
-          <table className="w-full bg-white shadow rounded">
-            <thead className="bg-gray-200">
+          <table className="w-full bg-[#111128] shadow-[0_0_15px_#00ffff22] rounded overflow-hidden">
+            <thead className="bg-[#1a1a2e] text-[#00ffff] border-b border-[#00ffff33]">
               <tr>
                 <th className="p-3 text-left">Sender</th>
                 <th className="p-3 text-left">Receiver</th>
                 <th className="p-3 text-left">Amount</th>
                 <th className="p-3 text-left">Path Length</th>
                 <th className="p-3 text-left">Rules</th>
-                <th className="p-3 text-left">Graph</th>
+                <th className="p-3 text-center">Graph</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody className="divide-y divide-[#00ffff22]">
               {flagged.map((tx, i) => {
                 const txData = tx.tx || tx;
                 const path = txData.path || [txData.sender, txData.receiver];
-               
+
+
                 return (
-                  <tr key={i} className="border-t hover:bg-gray-50">
-                    <td className="p-3 font-mono text-sm">{txData.sender}</td>
-                    <td className="p-3 font-mono text-sm">{txData.receiver}</td>
-                    <td className="p-3">${txData.amount?.toLocaleString()}</td>
+                  // FIX 1: Added 'text-gray-300' here to make text visible
+                  <tr key={i} className="hover:bg-[#111133] transition-colors text-gray-300">
+                    <td className="p-3 font-medium text-white">{txData.sender}</td>
+                    <td className="p-3 font-medium text-white">{txData.receiver}</td>
+                    
+                    {/* FIX 2: Formatted Amount with $ and commas */}
+                    <td className="p-3 text-[#00ffff]">
+                      ${Number(txData.amount).toLocaleString()}
+                    </td>
+
+
+                    {/* FIX 3: Restored the Blue Badge look for Path Length */}
                     <td className="p-3">
-                      <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-semibold">
+                      <span className="bg-blue-900 text-blue-200 px-2 py-1 rounded text-xs border border-blue-500">
                         {path.length} accounts
                       </span>
                     </td>
+
+
                     <td className="p-3 text-xs">
                       {(tx.matched_rules || tx.rules_triggered || []).map((rule, idx) => (
-                        <span key={idx} className="bg-red-100 text-red-800 px-2 py-1 rounded mr-1 inline-block mb-1">
+                        <span
+                          key={idx}
+                          className="bg-red-900/50 text-red-200 border border-red-500/50 px-2 py-1 rounded mr-1 inline-block mb-1"
+                        >
                           {rule}
                         </span>
                       ))}
                     </td>
-                    <td className="p-3">
+                    <td className="p-3 text-center">
                       <button
                         onClick={() => openGraph(tx)}
-                        className="bg-blue-600 text-white px-3 py-1 rounded text-xs hover:bg-blue-700"
+                        className="bg-[#00ffff] text-[#111128] font-bold px-3 py-1 rounded text-xs hover:bg-white hover:shadow-[0_0_10px_#00ffff] transition-all"
                       >
                         View Graph
                       </button>
@@ -169,8 +139,14 @@ export default function Dashboard() {
 
 
       {selectedTx && (
-        <GraphModal tx={selectedTx} graphData={graphData} onClose={() => setSelectedTx(null)} />
+        <GraphModal
+          tx={selectedTx}
+          graphData={graphData}
+          onClose={() => setSelectedTx(null)}
+        />
       )}
     </div>
   );
 }
+
+

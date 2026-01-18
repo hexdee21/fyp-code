@@ -1,0 +1,3891 @@
+[
+    {
+        "tx": {
+            "transaction_type": "TRANSFER",
+            "sender": "Usman_Malik",
+            "receiver": "Hamza_Khalid",
+            "amount": 49500,
+            "timestamps": [
+                1800000400,
+                1800000500
+            ],
+            "path": [
+                "Usman_Malik",
+                "Hamza_Khalid"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 100.0,
+            "total_amount": 201500.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 49500.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 3,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 3,
+            "total_outgoing_value_1h": 152000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 49500.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 49500.0,
+            "sender_out_degree_24h": 3,
+            "total_outgoing_value_24h": 152000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 49500.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Dispersion Pattern Detected"
+        ],
+        "risk_levels": [
+            "High"
+        ],
+        "timestamp": "2025-11-12 02:28:42"
+    },
+    {
+        "tx": {
+            "transaction_type": "TRANSFER",
+            "sender": "Hamza_Khalid",
+            "receiver": "Faraz_Ahmad",
+            "amount": 49500,
+            "timestamps": [
+                1800001000,
+                1800001100
+            ],
+            "path": [
+                "Hamza_Khalid",
+                "Faraz_Ahmad"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 100.0,
+            "total_amount": 99000.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 3,
+            "total_to_same_receiver_7d": 151500.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 49500.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 151500.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 151500.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 49500.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 151500.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Faraz_Ahmad",
+            "linked_chain_members": [
+                "Zeeshan_Ali",
+                "Bilal_Shah",
+                "Hamza_Khalid",
+                "Usman_Malik",
+                "Faraz_Ahmad"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Aggregation Funnel Detected",
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "High",
+            "Critical"
+        ],
+        "timestamp": "2025-11-12 02:28:53"
+    },
+    {
+        "tx": {
+            "sender": "Bilal_Shah",
+            "receiver": "Faraz_Ahmad",
+            "amount": 51500.0,
+            "timestamps": [
+                1800000700.0
+            ],
+            "path": [
+                "Bilal_Shah",
+                "Faraz_Ahmad"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 103000.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 3,
+            "total_to_same_receiver_7d": 151500.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 51500.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 151500.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 151500.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 51500.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 151500.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Faraz_Ahmad",
+            "linked_chain_members": [
+                "Zeeshan_Ali",
+                "Bilal_Shah",
+                "Hamza_Khalid",
+                "Usman_Malik",
+                "Faraz_Ahmad"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-12 02:28:53"
+    },
+    {
+        "tx": {
+            "sender": "Zeeshan_Ali",
+            "receiver": "Faraz_Ahmad",
+            "amount": 50500.0,
+            "timestamps": [
+                1800000900.0
+            ],
+            "path": [
+                "Zeeshan_Ali",
+                "Faraz_Ahmad"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 131000.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 3,
+            "total_to_same_receiver_7d": 151500.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 50500.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 151500.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 151500.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 50500.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 151500.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Faraz_Ahmad",
+            "linked_chain_members": [
+                "Zeeshan_Ali",
+                "Bilal_Shah",
+                "Hamza_Khalid",
+                "Usman_Malik",
+                "Faraz_Ahmad"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-12 02:28:53"
+    },
+    {
+        "tx": {
+            "transaction_type": "TRANSFER",
+            "sender": "Hamza_Khalid",
+            "receiver": "Faraz_Ahmad",
+            "amount": 49500,
+            "timestamps": [
+                1800001000,
+                1800001100
+            ],
+            "path": [
+                "Hamza_Khalid",
+                "Faraz_Ahmad"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 100.0,
+            "total_amount": 148500.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 4,
+            "total_to_same_receiver_7d": 201000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 2,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 1,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 99000.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 201000.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 201000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 99000.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 201000.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Multiple Small Transfers to Same Beneficiary",
+            "Aggregation Funnel Detected"
+        ],
+        "risk_levels": [
+            "High",
+            "High"
+        ],
+        "timestamp": "2025-11-12 02:30:41"
+    },
+    {
+        "tx": {
+            "transaction_type": "TRANSFER",
+            "sender": "Hamza_Khalid",
+            "receiver": "Faraz_Ahmad",
+            "amount": 49500,
+            "timestamps": [
+                1800001000,
+                1800001100
+            ],
+            "path": [
+                "Hamza_Khalid",
+                "Faraz_Ahmad"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 100.0,
+            "total_amount": 198000.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 5,
+            "total_to_same_receiver_7d": 250500.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 3,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 2,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 148500.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 250500.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 250500.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 148500.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 250500.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Multiple Small Transfers to Same Beneficiary",
+            "Aggregation Funnel Detected"
+        ],
+        "risk_levels": [
+            "High",
+            "High"
+        ],
+        "timestamp": "2025-11-12 02:30:44"
+    },
+    {
+        "tx": {
+            "transaction_type": "TRANSFER",
+            "sender": "A",
+            "receiver": "B",
+            "amount": 15000,
+            "path": [
+                "A",
+                "B"
+            ],
+            "timestamps": [
+                1761000000,
+                1761000300
+            ],
+            "merchant_category": "General",
+            "device_type": "Mobile",
+            "country": "PK",
+            "payment_method": "Wire",
+            "num_layers": 1,
+            "avg_delay_between_layers": 300.0,
+            "total_amount": 214000.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 4,
+            "total_to_same_receiver_7d": 65000.0,
+            "num_countries_involved_7d": 1,
+            "num_transactions_1h": 8,
+            "unique_device_count_3d": 1,
+            "previous_STRs": 0,
+            "sender_out_degree": 3,
+            "total_outgoing_value_1h": 145000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 65000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 65000.0,
+            "sender_out_degree_24h": 3,
+            "total_outgoing_value_24h": 145000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 65000.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Multiple Small Transfers to Same Beneficiary",
+            "High Frequency Transactions in Short Time",
+            "Dispersion Pattern Detected"
+        ],
+        "risk_levels": [
+            "High",
+            "Medium",
+            "High"
+        ],
+        "timestamp": "2025-11-17 20:57:07"
+    },
+    {
+        "tx": {
+            "transaction_type": "TRANSFER",
+            "sender": "north",
+            "receiver": "east",
+            "amount": 15000,
+            "path": [
+                "north",
+                "east"
+            ],
+            "timestamps": [
+                1761000000,
+                1761000300000000
+            ],
+            "merchant_category": "General",
+            "device_type": "Mobile",
+            "country": "PK",
+            "payment_method": "Wire",
+            "num_layers": 1,
+            "avg_delay_between_layers": 1760998539000000.0,
+            "total_amount": 90000.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 4,
+            "total_to_same_receiver_7d": 60000.0,
+            "num_countries_involved_7d": 1,
+            "num_transactions_1h": 4,
+            "unique_device_count_3d": 1,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 60000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 60000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 60000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 60000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 60000.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Multiple Small Transfers to Same Beneficiary",
+            "High Frequency Transactions in Short Time"
+        ],
+        "risk_levels": [
+            "High",
+            "Medium"
+        ],
+        "timestamp": "2025-11-17 21:35:37"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-2329",
+            "amount": 200,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "device_type": "Web",
+            "country": "PK",
+            "sender": "WLT-1416",
+            "timestamps": [
+                1763831991.714343
+            ],
+            "path": [
+                "WLT-1416",
+                "WLT-2329"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 1000.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 4,
+            "total_to_same_receiver_7d": 800.0,
+            "num_countries_involved_7d": 1,
+            "num_transactions_1h": 4,
+            "unique_device_count_3d": 1,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 800.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 800.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 800.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 800.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 800.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "High Frequency Transactions in Short Time"
+        ],
+        "risk_levels": [
+            "Medium"
+        ],
+        "timestamp": "2025-11-22 22:19:51"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-2329",
+            "amount": 200,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "device_type": "Web",
+            "country": "PK",
+            "sender": "WLT-1416",
+            "timestamps": [
+                1763831993.4400313
+            ],
+            "path": [
+                "WLT-1416",
+                "WLT-2329"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 1200.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 5,
+            "total_to_same_receiver_7d": 1000.0,
+            "num_countries_involved_7d": 1,
+            "num_transactions_1h": 5,
+            "unique_device_count_3d": 1,
+            "previous_STRs": 1,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 1000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 1000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 1000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 1000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 1000.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "High Frequency Transactions in Short Time"
+        ],
+        "risk_levels": [
+            "Medium"
+        ],
+        "timestamp": "2025-11-22 22:19:53"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-2329",
+            "amount": 200,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "device_type": "Web",
+            "country": "PK",
+            "sender": "WLT-1416",
+            "timestamps": [
+                1763831994.7708142
+            ],
+            "path": [
+                "WLT-1416",
+                "WLT-2329"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 1400.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 6,
+            "total_to_same_receiver_7d": 1200.0,
+            "num_countries_involved_7d": 1,
+            "num_transactions_1h": 6,
+            "unique_device_count_3d": 1,
+            "previous_STRs": 2,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 1200.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 1200.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 1200.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 1200.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 1200.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "High Frequency Transactions in Short Time"
+        ],
+        "risk_levels": [
+            "Medium"
+        ],
+        "timestamp": "2025-11-22 22:19:54"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-2329",
+            "amount": 200,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "device_type": "Web",
+            "country": "PK",
+            "sender": "WLT-1416",
+            "timestamps": [
+                1763831995.6871004
+            ],
+            "path": [
+                "WLT-1416",
+                "WLT-2329"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 1600.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 7,
+            "total_to_same_receiver_7d": 1400.0,
+            "num_countries_involved_7d": 1,
+            "num_transactions_1h": 7,
+            "unique_device_count_3d": 1,
+            "previous_STRs": 3,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 1400.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 1400.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 1400.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 1400.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 1400.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "High Frequency Transactions in Short Time"
+        ],
+        "risk_levels": [
+            "Medium"
+        ],
+        "timestamp": "2025-11-22 22:19:55"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-1416",
+            "amount": 200,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "device_type": "Web",
+            "country": "PK",
+            "sender": "WLT-2329",
+            "timestamps": [
+                1763832192.4707808
+            ],
+            "path": [
+                "WLT-2329",
+                "WLT-1416"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 2400.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 5,
+            "total_to_same_receiver_7d": 805.0,
+            "num_countries_involved_7d": 1,
+            "num_transactions_1h": 4,
+            "unique_device_count_3d": 1,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 800.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 800.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 800.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 800.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 800.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "High Frequency Transactions in Short Time"
+        ],
+        "risk_levels": [
+            "Medium"
+        ],
+        "timestamp": "2025-11-22 22:23:12"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-1416",
+            "amount": 200,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "device_type": "Web",
+            "country": "PK",
+            "sender": "WLT-2329",
+            "timestamps": [
+                1763851023.9792924
+            ],
+            "path": [
+                "WLT-2329",
+                "WLT-1416"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 3200.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 10,
+            "total_to_same_receiver_7d": 1805.0,
+            "num_countries_involved_7d": 1,
+            "num_transactions_1h": 4,
+            "unique_device_count_3d": 1,
+            "previous_STRs": 1,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 800.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 1000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 1000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 1600.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 1800.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "High Frequency Transactions in Short Time"
+        ],
+        "risk_levels": [
+            "Medium"
+        ],
+        "timestamp": "2025-11-23 03:37:04"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-1416",
+            "amount": 200,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "device_type": "Web",
+            "country": "PK",
+            "sender": "WLT-2329",
+            "timestamps": [
+                1763851026.909877
+            ],
+            "path": [
+                "WLT-2329",
+                "WLT-1416"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 3400.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 11,
+            "total_to_same_receiver_7d": 2005.0,
+            "num_countries_involved_7d": 1,
+            "num_transactions_1h": 5,
+            "unique_device_count_3d": 1,
+            "previous_STRs": 2,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 1000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 1200.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 1200.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 1800.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 2000.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "High Frequency Transactions in Short Time"
+        ],
+        "risk_levels": [
+            "Medium"
+        ],
+        "timestamp": "2025-11-23 03:37:06"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-1416",
+            "amount": 20,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "sender": "WLT-2329",
+            "timestamps": [
+                1763905491.1896312
+            ],
+            "path": [
+                "WLT-2329",
+                "WLT-1416"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 3300.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 15,
+            "total_to_same_receiver_7d": 2085.0,
+            "num_countries_involved_7d": 1,
+            "num_transactions_1h": 4,
+            "unique_device_count_3d": 1,
+            "previous_STRs": 3,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 80.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 80.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 80.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 1880.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 2080.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "High Frequency Transactions in Short Time"
+        ],
+        "risk_levels": [
+            "Medium"
+        ],
+        "timestamp": "2025-11-23 18:44:51"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-1416",
+            "amount": 20,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "sender": "WLT-2329",
+            "timestamps": [
+                1763905492.2800756
+            ],
+            "path": [
+                "WLT-2329",
+                "WLT-1416"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 3320.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 16,
+            "total_to_same_receiver_7d": 2105.0,
+            "num_countries_involved_7d": 1,
+            "num_transactions_1h": 5,
+            "unique_device_count_3d": 1,
+            "previous_STRs": 4,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 100.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 100.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 100.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 1900.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 2100.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "High Frequency Transactions in Short Time"
+        ],
+        "risk_levels": [
+            "Medium"
+        ],
+        "timestamp": "2025-11-23 18:44:52"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-2981",
+            "amount": 1000001,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "sender": "WLT-2329",
+            "timestamps": [
+                1763917031.350365
+            ],
+            "path": [
+                "WLT-2329",
+                "WLT-2981"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 2002462.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 4,
+            "total_to_same_receiver_7d": 1000561.0,
+            "num_countries_involved_7d": 1,
+            "num_transactions_1h": 4,
+            "unique_device_count_3d": 1,
+            "previous_STRs": 5,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 1000561.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 1000561.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 1000561.0,
+            "sender_out_degree_24h": 2,
+            "total_outgoing_value_24h": 1002461.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 1000561.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Multiple Small Transfers to Same Beneficiary",
+            "High Frequency Transactions in Short Time"
+        ],
+        "risk_levels": [
+            "High",
+            "Medium"
+        ],
+        "timestamp": "2025-11-23 21:57:11"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-4312",
+            "amount": 1000001,
+            "merchant_category": "Transfer",
+            "payment_method": "Wire",
+            "sender": "WLT-9418",
+            "timestamps": [
+                1763917748.2694976
+            ],
+            "path": [
+                "WLT-9418",
+                "WLT-4312"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 5000003.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 4,
+            "total_to_same_receiver_7d": 4000002.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 4,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 4000002.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 4000002.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 4000002.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 4000002.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 4000002.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Multiple Small Transfers to Same Beneficiary",
+            "High Frequency Transactions in Short Time"
+        ],
+        "risk_levels": [
+            "High",
+            "Medium"
+        ],
+        "timestamp": "2025-11-23 22:09:08"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-9418",
+            "amount": 1000001,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "sender": "WLT-6722",
+            "timestamps": [
+                1763918729.521708
+            ],
+            "path": [
+                "WLT-6722",
+                "WLT-9418"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 6000004.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 1000001.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 1000001.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 1000001.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 1000001.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 1000001.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 1000001.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "High Value Transfer Alert"
+        ],
+        "risk_levels": [
+            "High"
+        ],
+        "timestamp": "2025-11-23 22:25:29"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-9418",
+            "amount": 9000,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "sender": "WLT-6722",
+            "timestamps": [
+                1763918865.3928545
+            ],
+            "path": [
+                "WLT-6722",
+                "WLT-9418"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 5036003.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 4,
+            "total_to_same_receiver_7d": 1027001.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 4,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 1,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 1027001.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 1027001.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 1027001.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 1027001.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 1027001.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Multiple Small Transfers to Same Beneficiary",
+            "High Frequency Transactions in Short Time"
+        ],
+        "risk_levels": [
+            "High",
+            "Medium"
+        ],
+        "timestamp": "2025-11-23 22:27:45"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-5798",
+            "amount": 9000,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "sender": "WLT-6722",
+            "timestamps": [
+                1763918927.9276826
+            ],
+            "path": [
+                "WLT-6722",
+                "WLT-5798"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 1045001.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 9000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 5,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 2,
+            "sender_out_degree": 2,
+            "total_outgoing_value_1h": 1036001.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 9000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 9000.0,
+            "sender_out_degree_24h": 2,
+            "total_outgoing_value_24h": 1036001.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 9000.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "High Frequency Transactions in Short Time"
+        ],
+        "risk_levels": [
+            "Medium"
+        ],
+        "timestamp": "2025-11-23 22:28:48"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-5798",
+            "amount": 9000,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "sender": "WLT-6361",
+            "timestamps": [
+                1763919075.4500713
+            ],
+            "path": [
+                "WLT-6361",
+                "WLT-5798"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 45000.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 5,
+            "total_to_same_receiver_7d": 45000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 4,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 36000.0,
+            "receiver_in_degree": 2,
+            "total_incoming_value_1h": 45000.0,
+            "num_unique_senders_to_receiver_1h": 2,
+            "receiver_total_1h": 45000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 36000.0,
+            "receiver_in_degree_24h": 2,
+            "total_incoming_value_24h": 45000.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "High Frequency Transactions in Short Time"
+        ],
+        "risk_levels": [
+            "Medium"
+        ],
+        "timestamp": "2025-11-23 22:31:15"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-1054",
+            "amount": 9000,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "sender": "WLT-2457",
+            "timestamps": [
+                1763919427.4565573
+            ],
+            "path": [
+                "WLT-2457",
+                "WLT-1054"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 45000.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 4,
+            "total_to_same_receiver_7d": 36000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 4,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 36000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 36000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 36000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 36000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 36000.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "High Frequency Transactions in Short Time"
+        ],
+        "risk_levels": [
+            "Medium"
+        ],
+        "timestamp": "2025-11-23 22:37:07"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-3612",
+            "amount": 9000,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "sender": "WLT-1054",
+            "timestamps": [
+                1763919597.063272
+            ],
+            "path": [
+                "WLT-1054",
+                "WLT-3612"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 63000.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 6,
+            "total_to_same_receiver_7d": 54000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 6,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 54000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 54000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 54000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 54000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 54000.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Multiple Small Transfers to Same Beneficiary"
+        ],
+        "risk_levels": [
+            "High"
+        ],
+        "timestamp": "2025-11-23 22:39:57"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-4312",
+            "amount": 25000,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "sender": "WLT-1054",
+            "timestamps": [
+                1763919757.2048762
+            ],
+            "path": [
+                "WLT-1054",
+                "WLT-4312"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 3104003.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 5,
+            "total_to_same_receiver_7d": 4025002.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 7,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 1,
+            "sender_out_degree": 2,
+            "total_outgoing_value_1h": 79000.0,
+            "receiver_in_degree": 2,
+            "total_incoming_value_1h": 4025002.0,
+            "num_unique_senders_to_receiver_1h": 2,
+            "receiver_total_1h": 4025002.0,
+            "sender_out_degree_24h": 2,
+            "total_outgoing_value_24h": 79000.0,
+            "receiver_in_degree_24h": 2,
+            "total_incoming_value_24h": 4025002.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Multiple Small Transfers to Same Beneficiary"
+        ],
+        "risk_levels": [
+            "High"
+        ],
+        "timestamp": "2025-11-23 22:42:37"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-3612",
+            "amount": 25000,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "sender": "WLT-4312",
+            "timestamps": [
+                1763919795.6217306
+            ],
+            "path": [
+                "WLT-4312",
+                "WLT-3612"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 3050003.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 7,
+            "total_to_same_receiver_7d": 79000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 4,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 2,
+            "total_outgoing_value_1h": 3025003.0,
+            "receiver_in_degree": 2,
+            "total_incoming_value_1h": 79000.0,
+            "num_unique_senders_to_receiver_1h": 2,
+            "receiver_total_1h": 79000.0,
+            "sender_out_degree_24h": 2,
+            "total_outgoing_value_24h": 3025003.0,
+            "receiver_in_degree_24h": 2,
+            "total_incoming_value_24h": 79000.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Multiple Small Transfers to Same Beneficiary"
+        ],
+        "risk_levels": [
+            "High"
+        ],
+        "timestamp": "2025-11-23 22:43:15"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-6197",
+            "amount": 9000,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "sender": "WLT-1316",
+            "timestamps": [
+                1763934096.0269785
+            ],
+            "path": [
+                "WLT-1316",
+                "WLT-6197"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 9000.0,
+            "num_accounts_involved": 0,
+            "count_to_same_receiver_7d": 3,
+            "total_to_same_receiver_7d": 43000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 3,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 43000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 43000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 43000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 43000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 43000.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 02:41:36"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-6197",
+            "amount": 9000,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "sender": "WLT-1316",
+            "timestamps": [
+                1763934503.3280716
+            ],
+            "path": [
+                "WLT-1316",
+                "WLT-6197"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 9000.0,
+            "num_accounts_involved": 0,
+            "count_to_same_receiver_7d": 4,
+            "total_to_same_receiver_7d": 52000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 3,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 1,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 27000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 27000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 27000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 52000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 52000.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Multiple Small Transfers to Same Beneficiary",
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "High",
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 02:48:23"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-3115",
+            "amount": 9000,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "sender": "WLT-8481",
+            "timestamps": [
+                1763934645.2688498
+            ],
+            "path": [
+                "WLT-8481",
+                "WLT-3115"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 9000.0,
+            "num_accounts_involved": 0,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 9000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 9000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 9000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 9000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 9000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 9000.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 02:50:45"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-4128",
+            "amount": 9000,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "sender": "WLT-3115",
+            "timestamps": [
+                1763934812.427818
+            ],
+            "path": [
+                "WLT-8481",
+                "WLT-3115",
+                "WLT-4128"
+            ],
+            "num_layers": 2,
+            "avg_delay_between_layers": 167.15896821022034,
+            "total_amount": 9000.0,
+            "num_accounts_involved": 1,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 9000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 9000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 9000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 9000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 9000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 9000.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 02:53:32"
+    },
+    {
+        "tx": {
+            "sender": "Omar_Khalid",
+            "receiver": "Sara_Malik",
+            "amount": 40000.0,
+            "timestamps": [
+                1764000100.0
+            ],
+            "path": [
+                "Omar_Khalid",
+                "Sara_Malik"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 40000.0,
+            "num_accounts_involved": 0,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 40000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 3,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 3,
+            "total_outgoing_value_1h": 95000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 40000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 40000.0,
+            "sender_out_degree_24h": 3,
+            "total_outgoing_value_24h": 95000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 40000.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:10"
+    },
+    {
+        "tx": {
+            "sender": "Omar_Khalid",
+            "receiver": "Ahmed_Raza",
+            "amount": 25000.0,
+            "timestamps": [
+                1764000300.0
+            ],
+            "path": [
+                "Omar_Khalid",
+                "Ahmed_Raza"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 25000.0,
+            "num_accounts_involved": 0,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 25000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 3,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 1,
+            "sender_out_degree": 3,
+            "total_outgoing_value_1h": 95000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 25000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 25000.0,
+            "sender_out_degree_24h": 3,
+            "total_outgoing_value_24h": 95000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 25000.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:10"
+    },
+    {
+        "tx": {
+            "sender": "Omar_Khalid",
+            "receiver": "Zeeshan_Ali",
+            "amount": 30000.0,
+            "timestamps": [
+                1764000500.0
+            ],
+            "path": [
+                "Omar_Khalid",
+                "Zeeshan_Ali"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 30000.0,
+            "num_accounts_involved": 0,
+            "count_to_same_receiver_7d": 2,
+            "total_to_same_receiver_7d": 80500.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 3,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 2,
+            "sender_out_degree": 3,
+            "total_outgoing_value_1h": 95000.0,
+            "receiver_in_degree": 2,
+            "total_incoming_value_1h": 80500.0,
+            "num_unique_senders_to_receiver_1h": 2,
+            "receiver_total_1h": 80500.0,
+            "sender_out_degree_24h": 3,
+            "total_outgoing_value_24h": 95000.0,
+            "receiver_in_degree_24h": 2,
+            "total_incoming_value_24h": 80500.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:10"
+    },
+    {
+        "tx": {
+            "sender": "Sara_Malik",
+            "receiver": "Hina_Qureshi",
+            "amount": 40000.0,
+            "timestamps": [
+                1764000650.0
+            ],
+            "path": [
+                "Sara_Malik",
+                "Hina_Qureshi"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 40000.0,
+            "num_accounts_involved": 0,
+            "count_to_same_receiver_7d": 3,
+            "total_to_same_receiver_7d": 95000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 40000.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 95000.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 95000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 40000.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 95000.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:10"
+    },
+    {
+        "tx": {
+            "sender": "Ahmed_Raza",
+            "receiver": "Hina_Qureshi",
+            "amount": 25000.0,
+            "timestamps": [
+                1764000750.0
+            ],
+            "path": [
+                "Ahmed_Raza",
+                "Hina_Qureshi"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 25000.0,
+            "num_accounts_involved": 0,
+            "count_to_same_receiver_7d": 3,
+            "total_to_same_receiver_7d": 95000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 25000.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 95000.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 95000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 25000.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 95000.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:10"
+    },
+    {
+        "tx": {
+            "sender": "Zeeshan_Ali",
+            "receiver": "Hina_Qureshi",
+            "amount": 30000.0,
+            "timestamps": [
+                1764000850.0
+            ],
+            "path": [
+                "Zeeshan_Ali",
+                "Hina_Qureshi"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": -35999450.0,
+            "total_amount": 30000.0,
+            "num_accounts_involved": 1,
+            "count_to_same_receiver_7d": 3,
+            "total_to_same_receiver_7d": 95000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 2,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 1,
+            "sender_out_degree": 2,
+            "total_outgoing_value_1h": 80500.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 95000.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 95000.0,
+            "sender_out_degree_24h": 2,
+            "total_outgoing_value_24h": 80500.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 95000.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:10"
+    },
+    {
+        "tx": {
+            "sender": "Bilal_Khan",
+            "receiver": "Ayesha_Fatima",
+            "amount": 40000.0,
+            "timestamps": [
+                1765000650.0
+            ],
+            "path": [
+                "Bilal_Khan",
+                "Ayesha_Fatima"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": -4999650.0,
+            "total_amount": 40000.0,
+            "num_accounts_involved": 1,
+            "count_to_same_receiver_7d": 3,
+            "total_to_same_receiver_7d": 95000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 2,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 2,
+            "total_outgoing_value_1h": 79000.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 95000.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 95000.0,
+            "sender_out_degree_24h": 2,
+            "total_outgoing_value_24h": 79000.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 95000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Emaan_Akhtar",
+            "linked_chain_members": [
+                "Hassan_Ali",
+                "Emaan_Akhtar",
+                "Bilal_Khan",
+                "Amir_Qureshi",
+                "Daniyal_Rauf"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:10"
+    },
+    {
+        "tx": {
+            "sender": "Zeeshan_Khalid",
+            "receiver": "Hassan_Mehmood",
+            "amount": 40000.0,
+            "timestamps": [
+                1768000100.0
+            ],
+            "path": [
+                "Zeeshan_Khalid",
+                "Hassan_Mehmood"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 40000.0,
+            "num_accounts_involved": 0,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 40000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 3,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 3,
+            "total_outgoing_value_1h": 112000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 40000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 40000.0,
+            "sender_out_degree_24h": 3,
+            "total_outgoing_value_24h": 112000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 40000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Hina_Tariq",
+            "linked_chain_members": [
+                "Waleed_Ali",
+                "Ahmed_Nawaz",
+                "Zeeshan_Khalid",
+                "Hassan_Mehmood",
+                "Hina_Tariq"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:11"
+    },
+    {
+        "tx": {
+            "sender": "Zeeshan_Khalid",
+            "receiver": "Waleed_Ali",
+            "amount": 35000.0,
+            "timestamps": [
+                1768000300.0
+            ],
+            "path": [
+                "Zeeshan_Khalid",
+                "Waleed_Ali"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 35000.0,
+            "num_accounts_involved": 0,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 35000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 3,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 1,
+            "sender_out_degree": 3,
+            "total_outgoing_value_1h": 112000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 35000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 35000.0,
+            "sender_out_degree_24h": 3,
+            "total_outgoing_value_24h": 112000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 35000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Hina_Tariq",
+            "linked_chain_members": [
+                "Waleed_Ali",
+                "Ahmed_Nawaz",
+                "Zeeshan_Khalid",
+                "Hassan_Mehmood",
+                "Hina_Tariq"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:11"
+    },
+    {
+        "tx": {
+            "sender": "Zeeshan_Khalid",
+            "receiver": "Ahmed_Nawaz",
+            "amount": 37000.0,
+            "timestamps": [
+                1768000500.0
+            ],
+            "path": [
+                "Zeeshan_Khalid",
+                "Ahmed_Nawaz"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 37000.0,
+            "num_accounts_involved": 0,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 37000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 3,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 2,
+            "sender_out_degree": 3,
+            "total_outgoing_value_1h": 112000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 37000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 37000.0,
+            "sender_out_degree_24h": 3,
+            "total_outgoing_value_24h": 112000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 37000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Hina_Tariq",
+            "linked_chain_members": [
+                "Waleed_Ali",
+                "Ahmed_Nawaz",
+                "Zeeshan_Khalid",
+                "Hassan_Mehmood",
+                "Hina_Tariq"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:11"
+    },
+    {
+        "tx": {
+            "sender": "Hassan_Mehmood",
+            "receiver": "Hina_Tariq",
+            "amount": 40000.0,
+            "timestamps": [
+                1768000700.0
+            ],
+            "path": [
+                "Hassan_Mehmood",
+                "Hina_Tariq"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 600.0,
+            "total_amount": 40000.0,
+            "num_accounts_involved": 1,
+            "count_to_same_receiver_7d": 3,
+            "total_to_same_receiver_7d": 112000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 40000.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 112000.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 112000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 40000.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 112000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Hina_Tariq",
+            "linked_chain_members": [
+                "Waleed_Ali",
+                "Ahmed_Nawaz",
+                "Zeeshan_Khalid",
+                "Hassan_Mehmood",
+                "Hina_Tariq"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:11"
+    },
+    {
+        "tx": {
+            "sender": "Waleed_Ali",
+            "receiver": "Hina_Tariq",
+            "amount": 35000.0,
+            "timestamps": [
+                1768000900.0
+            ],
+            "path": [
+                "Waleed_Ali",
+                "Hina_Tariq"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 600.0,
+            "total_amount": 35000.0,
+            "num_accounts_involved": 1,
+            "count_to_same_receiver_7d": 3,
+            "total_to_same_receiver_7d": 112000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 35000.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 112000.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 112000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 35000.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 112000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Hina_Tariq",
+            "linked_chain_members": [
+                "Waleed_Ali",
+                "Ahmed_Nawaz",
+                "Zeeshan_Khalid",
+                "Hassan_Mehmood",
+                "Hina_Tariq"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:11"
+    },
+    {
+        "tx": {
+            "sender": "Ahmed_Nawaz",
+            "receiver": "Hina_Tariq",
+            "amount": 37000.0,
+            "timestamps": [
+                1768001100.0
+            ],
+            "path": [
+                "Ahmed_Nawaz",
+                "Hina_Tariq"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 600.0,
+            "total_amount": 37000.0,
+            "num_accounts_involved": 1,
+            "count_to_same_receiver_7d": 3,
+            "total_to_same_receiver_7d": 112000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 37000.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 112000.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 112000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 37000.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 112000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Hina_Tariq",
+            "linked_chain_members": [
+                "Waleed_Ali",
+                "Ahmed_Nawaz",
+                "Zeeshan_Khalid",
+                "Hassan_Mehmood",
+                "Hina_Tariq"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:11"
+    },
+    {
+        "tx": {
+            "sender": "Imran_Ali",
+            "receiver": "Tahir_Hussain",
+            "amount": 42000.0,
+            "timestamps": [
+                1769000100.0
+            ],
+            "path": [
+                "Imran_Ali",
+                "Tahir_Hussain"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 42000.0,
+            "num_accounts_involved": 0,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 42000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 3,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 3,
+            "total_outgoing_value_1h": 122000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 42000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 42000.0,
+            "sender_out_degree_24h": 3,
+            "total_outgoing_value_24h": 122000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 42000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Maryam_Naz",
+            "linked_chain_members": [
+                "Tahir_Hussain",
+                "Fahad_Saeed",
+                "Imran_Ali",
+                "Maryam_Naz",
+                "Ali_Hassan"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:11"
+    },
+    {
+        "tx": {
+            "sender": "Imran_Ali",
+            "receiver": "Fahad_Saeed",
+            "amount": 39000.0,
+            "timestamps": [
+                1769000300.0
+            ],
+            "path": [
+                "Imran_Ali",
+                "Fahad_Saeed"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 39000.0,
+            "num_accounts_involved": 0,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 39000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 3,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 1,
+            "sender_out_degree": 3,
+            "total_outgoing_value_1h": 122000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 39000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 39000.0,
+            "sender_out_degree_24h": 3,
+            "total_outgoing_value_24h": 122000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 39000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Maryam_Naz",
+            "linked_chain_members": [
+                "Tahir_Hussain",
+                "Fahad_Saeed",
+                "Imran_Ali",
+                "Maryam_Naz",
+                "Ali_Hassan"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:11"
+    },
+    {
+        "tx": {
+            "sender": "Imran_Ali",
+            "receiver": "Ali_Hassan",
+            "amount": 41000.0,
+            "timestamps": [
+                1769000500.0
+            ],
+            "path": [
+                "Imran_Ali",
+                "Ali_Hassan"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 41000.0,
+            "num_accounts_involved": 0,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 41000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 3,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 2,
+            "sender_out_degree": 3,
+            "total_outgoing_value_1h": 122000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 41000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 41000.0,
+            "sender_out_degree_24h": 3,
+            "total_outgoing_value_24h": 122000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 41000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Maryam_Naz",
+            "linked_chain_members": [
+                "Tahir_Hussain",
+                "Fahad_Saeed",
+                "Imran_Ali",
+                "Maryam_Naz",
+                "Ali_Hassan"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:11"
+    },
+    {
+        "tx": {
+            "sender": "Tahir_Hussain",
+            "receiver": "Maryam_Naz",
+            "amount": 42000.0,
+            "timestamps": [
+                1769000700.0
+            ],
+            "path": [
+                "Tahir_Hussain",
+                "Maryam_Naz"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 600.0,
+            "total_amount": 42000.0,
+            "num_accounts_involved": 1,
+            "count_to_same_receiver_7d": 3,
+            "total_to_same_receiver_7d": 122000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 42000.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 122000.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 122000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 42000.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 122000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Maryam_Naz",
+            "linked_chain_members": [
+                "Tahir_Hussain",
+                "Fahad_Saeed",
+                "Imran_Ali",
+                "Maryam_Naz",
+                "Ali_Hassan"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:11"
+    },
+    {
+        "tx": {
+            "sender": "Fahad_Saeed",
+            "receiver": "Maryam_Naz",
+            "amount": 39000.0,
+            "timestamps": [
+                1769000900.0
+            ],
+            "path": [
+                "Fahad_Saeed",
+                "Maryam_Naz"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 600.0,
+            "total_amount": 39000.0,
+            "num_accounts_involved": 1,
+            "count_to_same_receiver_7d": 3,
+            "total_to_same_receiver_7d": 122000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 39000.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 122000.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 122000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 39000.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 122000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Maryam_Naz",
+            "linked_chain_members": [
+                "Tahir_Hussain",
+                "Fahad_Saeed",
+                "Imran_Ali",
+                "Maryam_Naz",
+                "Ali_Hassan"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:11"
+    },
+    {
+        "tx": {
+            "sender": "Ali_Hassan",
+            "receiver": "Maryam_Naz",
+            "amount": 41000.0,
+            "timestamps": [
+                1769001100.0
+            ],
+            "path": [
+                "Ali_Hassan",
+                "Maryam_Naz"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 600.0,
+            "total_amount": 41000.0,
+            "num_accounts_involved": 1,
+            "count_to_same_receiver_7d": 3,
+            "total_to_same_receiver_7d": 122000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 4,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 4,
+            "total_outgoing_value_1h": 159500.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 122000.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 122000.0,
+            "sender_out_degree_24h": 4,
+            "total_outgoing_value_24h": 159500.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 122000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Kamran_Tariq",
+            "linked_chain_members": [
+                "Kamran_Tariq",
+                "Omar_Nadeem",
+                "Hina_Shahid",
+                "Maryam_Naz",
+                "Ali_Hassan",
+                "Sara_Qureshi"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:11"
+    },
+    {
+        "tx": {
+            "sender": "Hassan_Ali",
+            "receiver": "Amir_Qureshi",
+            "amount": 42000.0,
+            "timestamps": [
+                1770000100.0
+            ],
+            "path": [
+                "Hassan_Ali",
+                "Amir_Qureshi"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 42000.0,
+            "num_accounts_involved": 0,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 42000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 3,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 3,
+            "total_outgoing_value_1h": 122000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 42000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 42000.0,
+            "sender_out_degree_24h": 3,
+            "total_outgoing_value_24h": 122000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 42000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Emaan_Akhtar",
+            "linked_chain_members": [
+                "Hassan_Ali",
+                "Emaan_Akhtar",
+                "Bilal_Khan",
+                "Amir_Qureshi",
+                "Daniyal_Rauf"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:11"
+    },
+    {
+        "tx": {
+            "sender": "Hassan_Ali",
+            "receiver": "Bilal_Khan",
+            "amount": 39000.0,
+            "timestamps": [
+                1770000300.0
+            ],
+            "path": [
+                "Hassan_Ali",
+                "Bilal_Khan"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 39000.0,
+            "num_accounts_involved": 0,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 39000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 3,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 1,
+            "sender_out_degree": 3,
+            "total_outgoing_value_1h": 122000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 39000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 39000.0,
+            "sender_out_degree_24h": 3,
+            "total_outgoing_value_24h": 122000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 39000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Emaan_Akhtar",
+            "linked_chain_members": [
+                "Hassan_Ali",
+                "Emaan_Akhtar",
+                "Bilal_Khan",
+                "Amir_Qureshi",
+                "Daniyal_Rauf"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:11"
+    },
+    {
+        "tx": {
+            "sender": "Hassan_Ali",
+            "receiver": "Daniyal_Rauf",
+            "amount": 41000.0,
+            "timestamps": [
+                1770000500.0
+            ],
+            "path": [
+                "Hassan_Ali",
+                "Daniyal_Rauf"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 41000.0,
+            "num_accounts_involved": 0,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 41000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 3,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 2,
+            "sender_out_degree": 3,
+            "total_outgoing_value_1h": 122000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 41000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 41000.0,
+            "sender_out_degree_24h": 3,
+            "total_outgoing_value_24h": 122000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 41000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Emaan_Akhtar",
+            "linked_chain_members": [
+                "Hassan_Ali",
+                "Emaan_Akhtar",
+                "Bilal_Khan",
+                "Amir_Qureshi",
+                "Daniyal_Rauf"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:11"
+    },
+    {
+        "tx": {
+            "sender": "Amir_Qureshi",
+            "receiver": "Emaan_Akhtar",
+            "amount": 42000.0,
+            "timestamps": [
+                1770000700.0
+            ],
+            "path": [
+                "Amir_Qureshi",
+                "Emaan_Akhtar"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 600.0,
+            "total_amount": 42000.0,
+            "num_accounts_involved": 1,
+            "count_to_same_receiver_7d": 3,
+            "total_to_same_receiver_7d": 122000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 42000.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 122000.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 122000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 42000.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 122000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Emaan_Akhtar",
+            "linked_chain_members": [
+                "Hassan_Ali",
+                "Emaan_Akhtar",
+                "Bilal_Khan",
+                "Amir_Qureshi",
+                "Daniyal_Rauf"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:11"
+    },
+    {
+        "tx": {
+            "sender": "Bilal_Khan",
+            "receiver": "Emaan_Akhtar",
+            "amount": 39000.0,
+            "timestamps": [
+                1770000900.0
+            ],
+            "path": [
+                "Bilal_Khan",
+                "Emaan_Akhtar"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 600.0,
+            "total_amount": 39000.0,
+            "num_accounts_involved": 1,
+            "count_to_same_receiver_7d": 3,
+            "total_to_same_receiver_7d": 122000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 1,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 39000.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 122000.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 122000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 39000.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 122000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Emaan_Akhtar",
+            "linked_chain_members": [
+                "Hassan_Ali",
+                "Emaan_Akhtar",
+                "Bilal_Khan",
+                "Amir_Qureshi",
+                "Daniyal_Rauf"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:11"
+    },
+    {
+        "tx": {
+            "sender": "Daniyal_Rauf",
+            "receiver": "Emaan_Akhtar",
+            "amount": 41000.0,
+            "timestamps": [
+                1770001100.0
+            ],
+            "path": [
+                "Daniyal_Rauf",
+                "Emaan_Akhtar"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 600.0,
+            "total_amount": 41000.0,
+            "num_accounts_involved": 1,
+            "count_to_same_receiver_7d": 3,
+            "total_to_same_receiver_7d": 122000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 41000.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 122000.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 122000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 41000.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 122000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Emaan_Akhtar",
+            "linked_chain_members": [
+                "Hassan_Ali",
+                "Emaan_Akhtar",
+                "Bilal_Khan",
+                "Amir_Qureshi",
+                "Daniyal_Rauf"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:12"
+    },
+    {
+        "tx": {
+            "sender": "Naveed_Ahmed",
+            "receiver": "Raza_Khan",
+            "amount": 42000.0,
+            "timestamps": [
+                1780000100.0
+            ],
+            "path": [
+                "Naveed_Ahmed",
+                "Raza_Khan"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 42000.0,
+            "num_accounts_involved": 0,
+            "count_to_same_receiver_7d": 4,
+            "total_to_same_receiver_7d": 168000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 12,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 3,
+            "total_outgoing_value_1h": 488000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 168000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 168000.0,
+            "sender_out_degree_24h": 3,
+            "total_outgoing_value_24h": 488000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 168000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Zara_Iqbal",
+            "linked_chain_members": [
+                "Salman_Shah",
+                "Zara_Iqbal",
+                "Adeel_Butt",
+                "Raza_Khan",
+                "Naveed_Ahmed"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:12"
+    },
+    {
+        "tx": {
+            "sender": "Naveed_Ahmed",
+            "receiver": "Salman_Shah",
+            "amount": 39000.0,
+            "timestamps": [
+                1780000300.0
+            ],
+            "path": [
+                "Naveed_Ahmed",
+                "Salman_Shah"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 39000.0,
+            "num_accounts_involved": 0,
+            "count_to_same_receiver_7d": 4,
+            "total_to_same_receiver_7d": 156000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 12,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 1,
+            "sender_out_degree": 3,
+            "total_outgoing_value_1h": 488000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 156000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 156000.0,
+            "sender_out_degree_24h": 3,
+            "total_outgoing_value_24h": 488000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 156000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Zara_Iqbal",
+            "linked_chain_members": [
+                "Salman_Shah",
+                "Zara_Iqbal",
+                "Adeel_Butt",
+                "Raza_Khan",
+                "Naveed_Ahmed"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:12"
+    },
+    {
+        "tx": {
+            "sender": "Naveed_Ahmed",
+            "receiver": "Adeel_Butt",
+            "amount": 41000.0,
+            "timestamps": [
+                1780000500.0
+            ],
+            "path": [
+                "Naveed_Ahmed",
+                "Adeel_Butt"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 41000.0,
+            "num_accounts_involved": 0,
+            "count_to_same_receiver_7d": 4,
+            "total_to_same_receiver_7d": 164000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 12,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 2,
+            "sender_out_degree": 3,
+            "total_outgoing_value_1h": 488000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 164000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 164000.0,
+            "sender_out_degree_24h": 3,
+            "total_outgoing_value_24h": 488000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 164000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Zara_Iqbal",
+            "linked_chain_members": [
+                "Salman_Shah",
+                "Zara_Iqbal",
+                "Adeel_Butt",
+                "Raza_Khan",
+                "Naveed_Ahmed"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:12"
+    },
+    {
+        "tx": {
+            "sender": "Raza_Khan",
+            "receiver": "Zara_Iqbal",
+            "amount": 42000.0,
+            "timestamps": [
+                1780000700.0
+            ],
+            "path": [
+                "Raza_Khan",
+                "Zara_Iqbal"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 600.0,
+            "total_amount": 42000.0,
+            "num_accounts_involved": 1,
+            "count_to_same_receiver_7d": 12,
+            "total_to_same_receiver_7d": 488000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 4,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 168000.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 488000.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 488000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 168000.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 488000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Zara_Iqbal",
+            "linked_chain_members": [
+                "Salman_Shah",
+                "Zara_Iqbal",
+                "Adeel_Butt",
+                "Raza_Khan",
+                "Naveed_Ahmed"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:12"
+    },
+    {
+        "tx": {
+            "sender": "Salman_Shah",
+            "receiver": "Zara_Iqbal",
+            "amount": 39000.0,
+            "timestamps": [
+                1780000900.0
+            ],
+            "path": [
+                "Salman_Shah",
+                "Zara_Iqbal"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 600.0,
+            "total_amount": 39000.0,
+            "num_accounts_involved": 1,
+            "count_to_same_receiver_7d": 12,
+            "total_to_same_receiver_7d": 488000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 4,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 156000.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 488000.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 488000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 156000.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 488000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Zara_Iqbal",
+            "linked_chain_members": [
+                "Salman_Shah",
+                "Zara_Iqbal",
+                "Adeel_Butt",
+                "Raza_Khan",
+                "Naveed_Ahmed"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:12"
+    },
+    {
+        "tx": {
+            "sender": "Adeel_Butt",
+            "receiver": "Zara_Iqbal",
+            "amount": 41000.0,
+            "timestamps": [
+                1780001100.0
+            ],
+            "path": [
+                "Adeel_Butt",
+                "Zara_Iqbal"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 600.0,
+            "total_amount": 41000.0,
+            "num_accounts_involved": 1,
+            "count_to_same_receiver_7d": 12,
+            "total_to_same_receiver_7d": 488000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 4,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 164000.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 488000.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 488000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 164000.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 488000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Zara_Iqbal",
+            "linked_chain_members": [
+                "Salman_Shah",
+                "Zara_Iqbal",
+                "Adeel_Butt",
+                "Raza_Khan",
+                "Naveed_Ahmed"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:12"
+    },
+    {
+        "tx": {
+            "sender": "Ali_Hassan",
+            "receiver": "Sara_Qureshi",
+            "amount": 38000.0,
+            "timestamps": [
+                1790000100.0
+            ],
+            "path": [
+                "Ali_Hassan",
+                "Sara_Qureshi"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 20999600.0,
+            "total_amount": 38000.0,
+            "num_accounts_involved": 1,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 38000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 3,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 1,
+            "sender_out_degree": 3,
+            "total_outgoing_value_1h": 118500.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 38000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 38000.0,
+            "sender_out_degree_24h": 3,
+            "total_outgoing_value_24h": 118500.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 38000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Kamran_Tariq",
+            "linked_chain_members": [
+                "Kamran_Tariq",
+                "Omar_Nadeem",
+                "Hina_Shahid",
+                "Ali_Hassan",
+                "Sara_Qureshi"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:12"
+    },
+    {
+        "tx": {
+            "sender": "Ali_Hassan",
+            "receiver": "Hina_Shahid",
+            "amount": 41000.0,
+            "timestamps": [
+                1790000300.0
+            ],
+            "path": [
+                "Ali_Hassan",
+                "Hina_Shahid"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 20999800.0,
+            "total_amount": 41000.0,
+            "num_accounts_involved": 1,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 41000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 3,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 2,
+            "sender_out_degree": 3,
+            "total_outgoing_value_1h": 118500.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 41000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 41000.0,
+            "sender_out_degree_24h": 3,
+            "total_outgoing_value_24h": 118500.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 41000.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Kamran_Tariq",
+            "linked_chain_members": [
+                "Kamran_Tariq",
+                "Omar_Nadeem",
+                "Hina_Shahid",
+                "Ali_Hassan",
+                "Sara_Qureshi"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:12"
+    },
+    {
+        "tx": {
+            "sender": "Ali_Hassan",
+            "receiver": "Omar_Nadeem",
+            "amount": 39500.0,
+            "timestamps": [
+                1790000500.0
+            ],
+            "path": [
+                "Ali_Hassan",
+                "Omar_Nadeem"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 21000000.0,
+            "total_amount": 39500.0,
+            "num_accounts_involved": 1,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 39500.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 3,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 3,
+            "sender_out_degree": 3,
+            "total_outgoing_value_1h": 118500.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 39500.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 39500.0,
+            "sender_out_degree_24h": 3,
+            "total_outgoing_value_24h": 118500.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 39500.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Kamran_Tariq",
+            "linked_chain_members": [
+                "Kamran_Tariq",
+                "Omar_Nadeem",
+                "Hina_Shahid",
+                "Ali_Hassan",
+                "Sara_Qureshi"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:12"
+    },
+    {
+        "tx": {
+            "sender": "Sara_Qureshi",
+            "receiver": "Kamran_Tariq",
+            "amount": 37500.0,
+            "timestamps": [
+                1790000700.0
+            ],
+            "path": [
+                "Sara_Qureshi",
+                "Kamran_Tariq"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 10500100.0,
+            "total_amount": 75000.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 3,
+            "total_to_same_receiver_7d": 116700.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 37500.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 116700.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 116700.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 37500.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 116700.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Kamran_Tariq",
+            "linked_chain_members": [
+                "Kamran_Tariq",
+                "Omar_Nadeem",
+                "Hina_Shahid",
+                "Ali_Hassan",
+                "Sara_Qureshi"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:12"
+    },
+    {
+        "tx": {
+            "sender": "Hina_Shahid",
+            "receiver": "Kamran_Tariq",
+            "amount": 40000.0,
+            "timestamps": [
+                1790000900.0
+            ],
+            "path": [
+                "Hina_Shahid",
+                "Kamran_Tariq"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 10500200.0,
+            "total_amount": 80000.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 3,
+            "total_to_same_receiver_7d": 116700.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 40000.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 116700.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 116700.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 40000.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 116700.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Kamran_Tariq",
+            "linked_chain_members": [
+                "Kamran_Tariq",
+                "Omar_Nadeem",
+                "Hina_Shahid",
+                "Ali_Hassan",
+                "Sara_Qureshi"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:12"
+    },
+    {
+        "tx": {
+            "sender": "Omar_Nadeem",
+            "receiver": "Kamran_Tariq",
+            "amount": 39200.0,
+            "timestamps": [
+                1790001100.0
+            ],
+            "path": [
+                "Omar_Nadeem",
+                "Kamran_Tariq"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": 10500300.0,
+            "total_amount": 78400.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 3,
+            "total_to_same_receiver_7d": 116700.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 39200.0,
+            "receiver_in_degree": 3,
+            "total_incoming_value_1h": 116700.0,
+            "num_unique_senders_to_receiver_1h": 3,
+            "receiver_total_1h": 116700.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 39200.0,
+            "receiver_in_degree_24h": 3,
+            "total_incoming_value_24h": 116700.0,
+            "is_linked_chain": true,
+            "linked_chain_common_receiver": "Kamran_Tariq",
+            "linked_chain_members": [
+                "Kamran_Tariq",
+                "Omar_Nadeem",
+                "Hina_Shahid",
+                "Ali_Hassan",
+                "Sara_Qureshi"
+            ],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Coordinated Dispersion-Aggregation Detected"
+        ],
+        "risk_levels": [
+            "Critical"
+        ],
+        "timestamp": "2025-11-24 03:25:12"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-3394",
+            "amount": 50000,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "sender": "WLT-8017",
+            "timestamps": [
+                1763938091.4215786
+            ],
+            "path": [
+                "WLT-8017",
+                "WLT-3394"
+            ],
+            "num_layers": 1,
+            "avg_delay_between_layers": Infinity,
+            "total_amount": 186000.0,
+            "num_accounts_involved": 2,
+            "count_to_same_receiver_7d": 4,
+            "total_to_same_receiver_7d": 118000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 4,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 118000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 118000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 118000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 118000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 118000.0,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "48_hours": 172800,
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Multiple Small Transfers to Same Beneficiary"
+        ],
+        "risk_levels": [
+            "High"
+        ],
+        "timestamp": "2025-11-24 03:48:11"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-3394",
+            "amount": 9000,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "sender": "WLT-8017",
+            "timestamps": [
+                1764031734.1374393
+            ],
+            "path": [
+                "WLT-8017",
+                "WLT-3394"
+            ],
+            "num_layers": 1,
+            "num_accounts_involved": 2,
+            "total_amount": 9000.0,
+            "avg_delay_between_layers": Infinity,
+            "48_hours": 172800,
+            "count_to_same_receiver_7d": 5,
+            "total_to_same_receiver_7d": 127000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 1,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 9000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 9000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 9000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 9000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 9000.0,
+            "hop_chain": [
+                "WLT-8017",
+                "WLT-3394"
+            ],
+            "hop_count": 1,
+            "is_multi_hop": false,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Multiple Small Transfers to Same Beneficiary"
+        ],
+        "risk_levels": [
+            "High"
+        ],
+        "timestamp": "2025-11-25 05:48:17"
+    },
+    {
+        "tx": {
+            "receiver": "WLT-2666",
+            "amount": 9000,
+            "merchant_category": "General",
+            "payment_method": "Wire",
+            "sender": "WLT-7933",
+            "timestamps": [
+                1764107875.4247124,
+                1764107878.3845844,
+                1764107938.0923278,
+                1764107963.3570278,
+                1764107986.45158,
+                1764108021.8088193
+            ],
+            "path": [
+                "WLT-7399",
+                "WLT-3915",
+                "WLT-5325",
+                "WLT-6050",
+                "WLT-7389",
+                "WLT-7933",
+                "WLT-2666"
+            ],
+            "num_layers": 6,
+            "num_accounts_involved": 7,
+            "total_amount": 54000.0,
+            "avg_delay_between_layers": 29.27682137489319,
+            "48_hours": 172800,
+            "count_to_same_receiver_7d": 1,
+            "total_to_same_receiver_7d": 9000.0,
+            "num_countries_involved_7d": 0,
+            "num_transactions_1h": 1,
+            "unique_device_count_3d": 0,
+            "previous_STRs": 0,
+            "sender_out_degree": 1,
+            "total_outgoing_value_1h": 9000.0,
+            "receiver_in_degree": 1,
+            "total_incoming_value_1h": 9000.0,
+            "num_unique_senders_to_receiver_1h": 1,
+            "receiver_total_1h": 9000.0,
+            "sender_out_degree_24h": 1,
+            "total_outgoing_value_24h": 9000.0,
+            "receiver_in_degree_24h": 1,
+            "total_incoming_value_24h": 9000.0,
+            "hop_chain": [
+                "WLT-5325",
+                "WLT-6050",
+                "WLT-7389",
+                "WLT-7933",
+                "WLT-2666"
+            ],
+            "hop_count": 4,
+            "is_multi_hop": true,
+            "is_linked_chain": false,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": [],
+            "2_days": 172800,
+            "1_hour": 3600
+        },
+        "matched_rules": [
+            "Layered Transfers"
+        ],
+        "risk_levels": [
+            "High"
+        ],
+        "timestamp": "2025-11-26 03:00:21"
+    },
+    {
+        "tx": {
+            "sender": "WLT-5242",
+            "receiver": "WLT-9176",
+            "amount": 9000,
+            "path": [
+                "WLT-8120",
+                "WLT-5372",
+                "WLT-9118",
+                "WLT-7398",
+                "WLT-3876",
+                "WLT-5242",
+                "WLT-9176"
+            ],
+            "num_accounts_involved": 7,
+            "num_layers": 6,
+            "total_amount": 54000.0,
+            "timestamps": [
+                1764191553.1602883,
+                1764191612.5062907,
+                1764191633.9612818,
+                1764191654.729579,
+                1764191678.032979,
+                1764191711.1441023
+            ],
+            "avg_delay_between_layers": 31.596762800216673,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": []
+        },
+        "matched_rules": [
+            "Layered Transfers"
+        ],
+        "risk_levels": [
+            "High"
+        ],
+        "timestamp": "2025-11-27 02:15:11"
+    },
+    {
+        "tx": {
+            "sender": "WLT-6708",
+            "receiver": "WLT-5224",
+            "amount": 9000,
+            "path": [
+                "WLT-7984",
+                "WLT-3458",
+                "WLT-6143",
+                "WLT-9741",
+                "WLT-7402",
+                "WLT-6708",
+                "WLT-5224"
+            ],
+            "num_accounts_involved": 7,
+            "num_layers": 6,
+            "total_amount": 54000.0,
+            "timestamps": [
+                1764195067.6149113,
+                1764195128.1955352,
+                1764195161.4587464,
+                1764195186.9484138,
+                1764195210.0795686,
+                1764195238.25893
+            ],
+            "avg_delay_between_layers": 34.128803730010986,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": []
+        },
+        "matched_rules": [
+            "Layered Transfers"
+        ],
+        "risk_levels": [
+            "High"
+        ],
+        "timestamp": "2025-11-27 03:13:58"
+    },
+    {
+        "tx": {
+            "sender": "WLT-2216",
+            "receiver": "WLT-5798",
+            "amount": 9000,
+            "path": [
+                "WLT-5502",
+                "WLT-2216",
+                "WLT-5798"
+            ],
+            "num_accounts_involved": 3,
+            "num_layers": 2,
+            "total_amount": 18000.0,
+            "timestamps": [
+                1764340805.6079633,
+                1764340838.7604637
+            ],
+            "avg_delay_between_layers": 33.15250039100647,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": []
+        },
+        "matched_rules": [
+            "Multiple Small Transfers to Same Beneficiary"
+        ],
+        "risk_levels": [
+            "High"
+        ],
+        "timestamp": "2025-11-28 19:40:38"
+    },
+    {
+        "tx": {
+            "sender": "WLT-4983",
+            "receiver": "WLT-9418",
+            "amount": 1000001,
+            "path": [
+                "WLT-4983",
+                "WLT-9418"
+            ],
+            "num_accounts_involved": 2,
+            "num_layers": 1,
+            "total_amount": 1000001.0,
+            "timestamps": [
+                1765384860.95271
+            ],
+            "avg_delay_between_layers": Infinity,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": []
+        },
+        "matched_rules": [
+            "High Value Transfer Alert"
+        ],
+        "risk_levels": [
+            "High"
+        ],
+        "timestamp": "2025-12-10 21:41:01"
+    },
+    {
+        "tx": {
+            "sender": "WLT-4434",
+            "receiver": "WLT-3239",
+            "amount": 2,
+            "path": [
+                "WLT-4434",
+                "WLT-3239"
+            ],
+            "num_accounts_involved": 2,
+            "num_layers": 1,
+            "total_amount": 2.0,
+            "timestamps": [
+                1765404331.2478662
+            ],
+            "avg_delay_between_layers": Infinity,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": []
+        },
+        "matched_rules": [
+            "Aggregation Funnel Detected"
+        ],
+        "risk_levels": [
+            "High"
+        ],
+        "timestamp": "2025-12-11 03:05:31"
+    },
+    {
+        "tx": {
+            "sender": "WLT-8155",
+            "receiver": "WLT-4203",
+            "amount": 5000,
+            "path": [
+                "WLT-1561",
+                "WLT-4052",
+                "WLT-8155",
+                "WLT-4203"
+            ],
+            "num_accounts_involved": 4,
+            "num_layers": 3,
+            "total_amount": 155000.0,
+            "timestamps": [
+                1765429911.2175136,
+                1765429950.2497783,
+                1765430068.9228418
+            ],
+            "avg_delay_between_layers": 78.85266411304474,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": []
+        },
+        "matched_rules": [
+            "Layered Transfers"
+        ],
+        "risk_levels": [
+            "High"
+        ],
+        "timestamp": "2025-12-11 10:14:29"
+    },
+    {
+        "tx": {
+            "sender": "WLT-4968",
+            "receiver": "WLT-5355",
+            "amount": 1000002,
+            "path": [
+                "WLT-4968",
+                "WLT-5355"
+            ],
+            "num_accounts_involved": 2,
+            "num_layers": 1,
+            "total_amount": 1000002.0,
+            "timestamps": [
+                1765431236.4265366
+            ],
+            "avg_delay_between_layers": Infinity,
+            "linked_chain_common_receiver": null,
+            "linked_chain_members": []
+        },
+        "matched_rules": [
+            "High Value Transfer Alert"
+        ],
+        "risk_levels": [
+            "High"
+        ],
+        "timestamp": "2025-12-11 10:33:56"
+    }
+]

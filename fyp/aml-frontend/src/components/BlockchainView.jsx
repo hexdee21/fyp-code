@@ -2,8 +2,8 @@ export default function BlockchainView({ blocks, onSelectTx, loading }) {
   return (
     <div className="bg-white shadow p-4 rounded-lg">
       <div className="flex items-center justify-between mb-3">
-        <h2 className="text-lg font-semibold">Blockchain Blocks</h2>
-        <span className="text-sm text-gray-500">
+        <h2 className="text-lg font-semibold text-neon">Blockchain Blocks</h2>
+        <span className="text-sm text-gray-400">
           {loading ? "Loading..." : `${blocks.length} blocks`}
         </span>
       </div>
@@ -13,27 +13,31 @@ export default function BlockchainView({ blocks, onSelectTx, loading }) {
       ) : (
         <ul className="space-y-3 max-h-[500px] overflow-y-auto">
           {blocks.slice(-10).reverse().map((b, i) => (
-            <li key={i} className="p-3 border rounded hover:bg-gray-50">
-              <div className="text-sm">
+            <li
+              key={i}
+              className="p-3 border rounded cursor-pointer hover:bg-[#111133]"
+              onClick={() => onSelectTx(b)}
+            >
+              <div className="text-sm text-neon">
                 <b>Block #{b.index}</b> —{" "}
                 {new Date((b.timestamp || Date.now()) * 1000).toLocaleString()}
               </div>
 
-              <div className="text-xs text-gray-500 break-all">
+              <div className="text-xs text-gray-400 break-all">
                 Hash: {b.hash}
               </div>
 
               <div className="mt-2 text-sm">
-                <div className="font-semibold mb-1">
+                <div className="font-semibold mb-1 text-neon">
                   Transactions ({b.transactions?.length || 0})
                 </div>
 
                 {b.transactions?.length > 0 ? (
-                  <ul className="pl-4 list-disc text-gray-700 text-xs space-y-1">
+                  <ul className="pl-4 list-disc text-gray-400 text-xs space-y-1">
                     {b.transactions.map((tx, j) => (
                       <li
                         key={j}
-                        className="cursor-pointer hover:underline"
+                        className="hover:text-[#00ffff] cursor-pointer"
                         onClick={() => onSelectTx(tx)}
                       >
                         {tx.sender} → {tx.receiver} ({tx.amount})
@@ -41,9 +45,7 @@ export default function BlockchainView({ blocks, onSelectTx, loading }) {
                     ))}
                   </ul>
                 ) : (
-                  <p className="text-gray-400 text-xs italic">
-                    No transactions
-                  </p>
+                  <p className="text-gray-500 text-xs italic">No transactions</p>
                 )}
               </div>
             </li>
@@ -53,6 +55,3 @@ export default function BlockchainView({ blocks, onSelectTx, loading }) {
     </div>
   );
 }
-
-
-

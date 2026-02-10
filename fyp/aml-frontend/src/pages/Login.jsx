@@ -53,8 +53,26 @@ export default function Login() {
         <h1 className="text-2xl font-bold text-center mb-6 text-[#00ffff]">🔐 Login</h1>
         {error && <div className="bg-red-600 text-black p-2 mb-3 rounded text-sm text-center">{error}</div>}
         <form onSubmit={handleLogin} className="space-y-4">
-          <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} className="w-full border border-[#00ffff] p-2 rounded bg-[#ffffff] text-neon" required />
-          <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} className="w-full border border-[#00ffff] p-2 rounded bg-[#ffffff] text-neon" required />
+        <input
+        type="email"
+        id="email"
+        data-testid="email-input"
+        placeholder="Email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+        required
+        />
+
+        <input
+          type="password"
+          id="password"
+          data-testid="password-input"
+          placeholder="Password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          required
+        />
+
           <button type="submit" disabled={loading} className={`w-full py-2 rounded text-[#0f0f1f] ${loading ? "bg-gray-700" : "bg-[#00ffff] hover:brightness-125"}`}>
             {loading ? "Logging in..." : "Login"}
           </button>

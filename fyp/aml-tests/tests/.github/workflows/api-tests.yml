@@ -1,0 +1,32 @@
+name: API Tests - AML FYP
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  api-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+
+    - name: Start Backend
+      run: |
+        npm install
+        npm run dev &
+        sleep 10
+
+    - name: Run API Tests
+      run: |
+        pytest tests/

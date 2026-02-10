@@ -577,6 +577,170 @@ def mine():
     print(f"[⛏️ MINED] Block #{new_block['index']} created.")
     return jsonify(new_block), 200
 
+
+
+
+def display_rule_details(tx, matched_rules):
+    """
+    Display detailed information about triggered rules with relevant metrics
+    """
+    for rule in matched_rules:
+        rule_id = rule.get("id")
+        rule_name = rule.get("name")
+        
+        print(f"\n[🚨 RULE {rule_id}] {rule_name}")
+        print(f"  Risk Level: {rule.get('risk_level')}")
+        print(f"  Category: {rule.get('category')}")
+        
+        # Display rule-specific metrics
+        if rule_id == 1:
+            print(f"  → Amount: ${tx['amount']:,.2f} (threshold: $1,000,000)")
+        
+        elif rule_id == 2:
+            print(f"  → Amount: ${tx['amount']:,.2f}")
+            print(f"  → Repeated in 24h: {tx.get('repeated_within_24h')}")
+            print(f"  → Total 24h sum: ${tx.get('total_24h_sum', 0):,.2f}")
+        
+        elif rule_id == 3:
+            print(f"  → Path: {' → '.join(tx.get('path', []))}")
+            print(f"  → Accounts involved: {tx.get('num_accounts_involved')}")
+            print(f"  → Total amount: ${tx.get('total_amount', 0):,.2f}")
+            print(f"  → Avg delay: {tx.get('avg_delay_between_layers', 0):.0f}s")
+        
+        elif rule_id in [4, 5]:
+            print(f"  → Merchant: {tx.get('merchant_category')}")
+            print(f"  → Amount: ${tx['amount']:,.2f}")
+        
+        elif rule_id == 6:
+            print(f"  → Receiver: {tx.get('receiver')}")
+            print(f"  → Count (7d): {tx.get('count_to_same_receiver_7d')}")
+            print(f"  → Total (7d): ${tx.get('total_to_same_receiver_7d', 0):,.2f}")
+        
+        elif rule_id == 7:
+            print(f"  → Layers: {tx.get('num_layers')}")
+            print(f"  → Avg delay: {tx.get('avg_delay_between_layers', 0):.0f}s (< 48hrs)")
+        
+        elif rule_id == 8:
+            print(f"  → Category risk: {tx.get('category_risk')}")
+            print(f"  → Risk score: {tx.get('risk_score')}")
+        
+        elif rule_id == 9:
+            print(f"  → Current: ${tx['amount']:,.2f}")
+            print(f"  → vs Average: {tx.get('amount_vs_average', 0):.1f}% higher")
+        
+        elif rule_id == 10:
+            print(f"  → Device: {tx.get('device_type')}")
+        
+        elif rule_id == 11:
+            print(f"  → Current location: {tx.get('country')}")
+            print(f"  → Unusual: {tx.get('unusual_location')}")
+        
+        elif rule_id == 12:
+            print(f"  → Countries (7d): {tx.get('num_countries_involved_7d')}")
+        
+        elif rule_id == 13:
+            print(f"  → Customer risk: {tx.get('customer_risk_score')}")
+            print(f"  → Amount: ${tx['amount']:,.2f}")
+        
+        elif rule_id == 14:
+            print(f"  → Gap: {tx.get('incoming_outgoing_gap', 0):.0f}s")
+            print(f"  → Total value: ${tx.get('total_value', 0):,.2f}")
+        
+        elif rule_id == 15:
+            print(f"  → Multiple sources: {tx.get('multiple_sources')}")
+            print(f"  → Category mixture: {tx.get('category_mixture')}")
+        
+        elif rule_id == 16:
+            print(f"  → Merchant risk: {tx.get('merchant_risk_level')}")
+            print(f"  → Amount: ${tx['amount']:,.2f}")
+        
+        elif rule_id == 17:
+            print(f"  → Transactions (1h): {tx.get('num_transactions_1h')}")
+        
+        elif rule_id == 18:
+            print(f"  → Payment method: {tx.get('payment_method')}")
+            print(f"  → Transactions (1d): {tx.get('num_transactions_1d')}")
+        
+        elif rule_id == 19:
+            print(f"  → Unique devices (3d): {tx.get('unique_device_count_3d')}")
+            print(f"  → Amount: ${tx['amount']:,.2f}")
+        
+        elif rule_id == 20:
+            print(f"  → Distinct regions (3d): {tx.get('distinct_postcodes_3d')}")
+            print(f"  → Total amount: ${tx.get('total_amount', 0):,.2f}")
+        
+        elif rule_id == 21:
+            print(f"  → Amount: ${tx['amount']:,.2f} (near $10k threshold)")
+        
+        elif rule_id == 22:
+            print(f"  → Round amount: ${tx['amount']:,.2f}")
+        
+        elif rule_id == 23:
+            print(f"  → Same party repeats: {tx.get('same_party_repeat')}")
+        
+        elif rule_id == 24:
+            print(f"  → Transactions (7d): {tx.get('transactions_last_7d')}")
+            print(f"  → Average: {tx.get('average_7d')}")
+        
+        elif rule_id == 25:
+            print(f"  → Merchant: {tx.get('merchant_category')}")
+            print(f"  → Amount: ${tx['amount']:,.2f}")
+        
+        elif rule_id == 26:
+            print(f"  → Previous STRs: {tx.get('previous_STRs')}")
+            print(f"  → Amount: ${tx['amount']:,.2f}")
+        
+        elif rule_id == 27:
+            print(f"  → Layer count (week): {tx.get('layer_count_week')}")
+        
+        elif rule_id == 28:
+            print(f"  → Beneficiary: {tx.get('beneficiary_industry')}")
+            print(f"  → Intermediary: {tx.get('intermediary_category')}")
+        
+        elif rule_id == 29:
+            print(f"  → Property in chain: {tx.get('chain_contains_property')}")
+            print(f"  → Total value: ${tx.get('total_value', 0):,.2f}")
+        
+        elif rule_id == 30:
+            print(f"  → Risk score: {tx.get('risk_score')}")
+            print(f"  → Layers: {tx.get('num_layers')}")
+            print(f"  → Total value: ${tx.get('total_value', 0):,.2f}")
+        
+        elif rule_id == 31:
+            print(f"  [🌐 DISPERSION PATTERN]")
+            print(f"  → Origin: {tx.get('sender')}")
+            disp = tx.get("dispersion_graph", {})
+            print(f"  → Dispersed to {disp.get('num_receivers', 0)} receivers:")
+            for edge in disp.get("edges", [])[:5]:
+                print(f"      → {edge['to']}: ${edge['amount']:,.2f}")
+            if len(disp.get("edges", [])) > 5:
+                print(f"      ... and {len(disp.get('edges', [])) - 5} more")
+            print(f"  → Total dispersed: ${disp.get('total_dispersed', 0):,.2f}")
+        
+        elif rule_id == 32:
+            print(f"  [🌐 AGGREGATION PATTERN]")
+            print(f"  → Destination: {tx.get('receiver')}")
+            agg = tx.get("aggregation_graph", {})
+            print(f"  → Received from {agg.get('num_senders', 0)} senders:")
+            for edge in agg.get("edges", [])[:5]:
+                print(f"      {edge['from']} → ${edge['amount']:,.2f}")
+            if len(agg.get("edges", [])) > 5:
+                print(f"      ... and {len(agg.get('edges', [])) - 5} more")
+            print(f"  → Total aggregated: ${agg.get('total_aggregated', 0):,.2f}")
+        
+        elif rule_id == 35:
+            print(f"  [🌐 COORDINATED DISPERSION-AGGREGATION]")
+            print(f"  → Common receiver: {tx.get('linked_chain_common_receiver')}")
+            members = tx.get('linked_chain_members', [])
+            print(f"  → Chain members ({len(members)}): {', '.join(members[:5])}")
+            if len(members) > 5:
+                print(f"      ... and {len(members) - 5} more")
+
+
+
+
+
+
 @app.route("/add_tx", methods=["POST"])
 def add_tx():
     global clean_tx_counter
@@ -709,7 +873,40 @@ def add_tx():
     prev_hash = chain.last_block()["hash"]
 
     if flagged:
+        display_rule_details(tx, matched_rules)
+    
         alert = {
+        "tx": {
+            "sender": tx["sender"],
+            "receiver": tx["receiver"],
+            "amount": tx["amount"],
+            "path": tx.get("path", [tx["sender"], tx["receiver"]]),
+            "num_accounts_involved": tx.get("num_accounts_involved", 0),
+            "num_layers": tx.get("num_layers", 0),
+            "total_amount": tx.get("total_amount", tx["amount"]),
+            "timestamps": tx.get("timestamps", []),
+            "avg_delay_between_layers": tx.get("avg_delay_between_layers", 0),
+            
+            # Graph data
+            "dispersion_graph": tx.get("dispersion_graph"),
+            "aggregation_graph": tx.get("aggregation_graph"),
+            
+            # Rule 35 data
+            "linked_chain_common_receiver": tx.get("linked_chain_common_receiver"),
+            "linked_chain_members": tx.get("linked_chain_members", []),
+            
+            # Additional metrics
+            "risk_score": tx.get("risk_score"),
+            "merchant_category": tx.get("merchant_category"),
+            "device_type": tx.get("device_type"),
+            "country": tx.get("country"),
+            "payment_method": tx.get("payment_method"),
+        },
+        "matched_rules": [r["name"] for r in matched_rules],
+        "risk_levels": [r["risk_level"] for r in matched_rules],
+        "timestamp": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+    }
+        '''alert = {
         "tx": {
             "sender": tx["sender"],
             "receiver": tx["receiver"],
@@ -727,7 +924,7 @@ def add_tx():
         "matched_rules": [r["name"] for r in matched_rules],
         "risk_levels": [r["risk_level"] for r in matched_rules],
         "timestamp": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-    }
+    }'''
 
         # Write to local log
         try:

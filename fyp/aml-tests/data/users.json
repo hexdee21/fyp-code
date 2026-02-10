@@ -1,0 +1,15 @@
+{
+    "admin": {
+      "email": "admin@example.com",
+      "password": "admin123"
+    },
+    "normal": {
+      "email": "a7@example.com",
+      "password": "test123"
+    },
+    "suspicious": {
+      "email": "bablo@example.com",
+      "password": "bablo123"
+    }
+  }
+  
